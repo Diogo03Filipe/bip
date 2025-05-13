@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bip/static/css/main.717e4b1e.css",
+    "main.js": "/bip/static/js/main.41ff42e5.js",
+    "static/js/453.4fdc8726.chunk.js": "/bip/static/js/453.4fdc8726.chunk.js",
+    "static/media/zaklinczyn.png": "/bip/static/media/zaklinczyn.97c0638240e0aeec0c68.png",
+    "static/media/musicCenter.png": "/bip/static/media/musicCenter.bd884b1c5ce77f2b4ee9.png",
+    "static/media/EuroveloMostek.png": "/bip/static/media/EuroveloMostek.6071925c3d58121b59b6.png",
+    "static/media/melsztyn.png": "/bip/static/media/melsztyn.a41ac1947fb84a9458b8.png",
+    "static/media/StIdzi.png": "/bip/static/media/StIdzi.76a865526561fe08da0d.png",
+    "static/media/uk_banner.png": "/bip/static/media/uk_banner.c3b69178098f3b01ec99.png",
+    "index.html": "/bip/index.html",
+    "main.717e4b1e.css.map": "/bip/static/css/main.717e4b1e.css.map",
+    "main.41ff42e5.js.map": "/bip/static/js/main.41ff42e5.js.map",
+    "453.4fdc8726.chunk.js.map": "/bip/static/js/453.4fdc8726.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.717e4b1e.css",
+    "static/js/main.41ff42e5.js"
+  ]
+}
