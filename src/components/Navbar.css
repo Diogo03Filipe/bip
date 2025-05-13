@@ -21,7 +21,13 @@
 }
 
 .dropdown-container {
-  margin-top: -0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding-top: env(safe-area-inset-top, 20px); /* fallback for older browsers */
+  z-index: 1000;
   display: flex; /* Align dropdowns side by side */
   gap: 10px; /* Space between dropdowns */
   background-color: black;
