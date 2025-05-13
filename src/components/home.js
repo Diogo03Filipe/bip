@@ -6,21 +6,41 @@ import musicCenter from '../assets/musicCenter.png';
 import './home.css';
 import React, { useState, useEffect } from 'react';
 
-
 const Home = () => {
     const [currentImage, setCurrentImage] = useState(0);
     const images = [zaklinczyn, melsztyn, euroveloMotesk, StIdzi, musicCenter];
 
     useEffect(() => {
+        console.log('Home component mounted');
         const interval = setInterval(() => {
-            setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-        }, 5000); // Change image every 3 seconds
+            setCurrentImage((prevImage) => {
+                const nextImage = (prevImage + 1) % images.length;
+                console.log('Switching to image index:', nextImage);
+                return nextImage;
+            });
+        }, 5000); // Change image every 5 seconds
 
-        return () => clearInterval(interval); // Cleanup on unmount
+        return () => {
+            clearInterval(interval);
+            console.log('Home component unmounted, interval cleared');
+        };
     }, [images.length]);
 
+    if (!images || images.length === 0) {
+        return <p>No images to display</p>;
+    }
+
     return (
-        <img src={images[currentImage]} alt="Rotating Images" className="img" />
+        <img
+            src={images[currentImage]}
+            alt={`Rotating ${currentImage + 1}`}
+            className="img"
+            onError={(e) => {
+                console.error('Image failed to load:', e.target.src);
+                e.target.style.display = 'none';
+            }}
+        />
     );
-}
+};
+
 export default Home;
