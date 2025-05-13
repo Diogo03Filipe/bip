@@ -25,14 +25,13 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  padding-top: env(safe-area-inset-top, 20px); /* fallback for older browsers */
+  padding-top: env(safe-area-inset-top, 20px); /* Safe area for notches/status bar */
   z-index: 1000;
-  display: flex; /* Align dropdowns side by side */
-  gap: 10px; /* Space between dropdowns */
+  display: flex;
+  gap: 10px;
   background-color: black;
-  height: 60px; /* Keep the height as is */
-  width: 100%; /* Change width to 100% to fit the viewport */
+  width: 100%;
+  height: calc(60px + env(safe-area-inset-top, 20px)); /* Total height includes padding */
 }
 
 .dropdown-toggle {
