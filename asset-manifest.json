@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bip/static/css/main.7ad806e9.css",
-    "main.js": "/bip/static/js/main.0859e51b.js",
+    "main.css": "/bip/static/css/main.a6e8b1a2.css",
+    "main.js": "/bip/static/js/main.15393793.js",
     "static/js/453.4fdc8726.chunk.js": "/bip/static/js/453.4fdc8726.chunk.js",
     "static/media/zaklinczyn.png": "/bip/static/media/zaklinczyn.97c0638240e0aeec0c68.png",
     "static/media/musicCenter.png": "/bip/static/media/musicCenter.bd884b1c5ce77f2b4ee9.png",
@@ -9,13 +9,17 @@
     "static/media/melsztyn.png": "/bip/static/media/melsztyn.a41ac1947fb84a9458b8.png",
     "static/media/StIdzi.png": "/bip/static/media/StIdzi.76a865526561fe08da0d.png",
     "static/media/uk_banner.png": "/bip/static/media/uk_banner.c3b69178098f3b01ec99.png",
+    "static/media/slick.svg": "/bip/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bip/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bip/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bip/index.html",
-    "main.7ad806e9.css.map": "/bip/static/css/main.7ad806e9.css.map",
-    "main.0859e51b.js.map": "/bip/static/js/main.0859e51b.js.map",
+    "main.a6e8b1a2.css.map": "/bip/static/css/main.a6e8b1a2.css.map",
+    "main.15393793.js.map": "/bip/static/js/main.15393793.js.map",
     "453.4fdc8726.chunk.js.map": "/bip/static/js/453.4fdc8726.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ad806e9.css",
-    "static/js/main.0859e51b.js"
+    "static/css/main.a6e8b1a2.css",
+    "static/js/main.15393793.js"
   ]
 }
