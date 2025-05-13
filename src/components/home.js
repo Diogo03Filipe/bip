@@ -1,47 +1,45 @@
-import React from 'react';
-import Slider from 'react-slick';
-import zaklinczyn from '../assets/zaklinczyn.png';
+import zakliczyn from '../assets/zakliczyn.png';
 import melsztyn from '../assets/melsztyn.png';
 import euroveloMotesk from '../assets/EuroveloMostek.png';
 import StIdzi from '../assets/StIdzi.png';
 import musicCenter from '../assets/musicCenter.png';
 import './home.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useState, useEffect } from 'react';
 
 const Home = () => {
-  const images = [zaklinczyn, melsztyn, euroveloMotesk, StIdzi, musicCenter];
+  const [currentImage, setCurrentImage] = useState(0);
+  const images = [zakliczyn, melsztyn, euroveloMotesk, StIdzi, musicCenter];
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    adaptiveHeight: true,
-  };
+  useEffect(() => {
+    console.log('Home component mounted');
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => {
+        const nextImage = (prevImage + 1) % images.length;
+        console.log('Switching to image index:', nextImage);
+        return nextImage;
+      });
+    }, 5000); // Change image every 5 seconds
+
+    return () => {
+      clearInterval(interval);
+      console.log('Home component unmounted, interval cleared');
+    };
+  }, [images.length]);
+
+  if (!images || images.length === 0) {
+    return <p>No images to display</p>;
+  }
 
   return (
-    <div className="home-slider">
-      <Slider {...settings}>
-        {images.map((imgSrc, index) => (
-          <div key={index}>
-            <img
-              src={imgSrc}
-              alt={`Slide ${index + 1}`}
-              className="img"
-              onError={(e) => {
-                console.error('Image failed to load:', e.target.src);
-                e.target.style.display = 'none';
-              }}
-            />
-          </div>
-        ))}
-      </Slider>
-    </div>
+    <img
+      src={images[currentImage]}
+      alt={`Slide ${currentImage + 1}`}
+      className="img"
+      onError={(e) => {
+        console.error('Image failed to load:', e.target.src);
+        e.target.style.display = 'none';
+      }}
+    />
   );
 };
 

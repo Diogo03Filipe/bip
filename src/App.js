@@ -10,7 +10,7 @@ import StIdzi from './components/StIdzi/StIdzi';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/bip">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />

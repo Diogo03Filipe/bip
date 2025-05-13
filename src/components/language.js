@@ -13,14 +13,14 @@ export const LanguageProvider = ({ children }) => {
       locations: "Locations",
       gastronomy: "Gastronomy",
       menuItems: {
-        zaklinczyn: "Zaklinczyn",
+        zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
         musicCenter: "Music Center",
         eurovelo: "Eurovelo Mostek",
         stIdzi: "St. Idzi Zakliczyn",
       },
       zakliczyn: {
-        title: "Zaklinczyn",
+        title: "Zakliczyn",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...\nLorem ipsum dolor sit amet, consectetur adipiscing elit..."
       },
       melsztyn: {

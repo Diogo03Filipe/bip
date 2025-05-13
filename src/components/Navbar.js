@@ -21,7 +21,7 @@ const Navbar = () => {
           </Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item as={Link} to="zakliczyn/cityCenter">
-              {translations[language].menuItems.zaklinczyn}
+              {translations[language].menuItems.zakliczyn}
             </Dropdown.Item>
             <Dropdown.Item as={Link} to="melsztyn/melsztyn">
               {translations[language].menuItems.melsztyn}

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import img from '../../assets/zaklinczyn.png';
+import img from '../../assets/zakliczyn.png';
 import './cityCenter.css';
 import { useLanguage } from '../language'; // Adjust import path as needed
 
