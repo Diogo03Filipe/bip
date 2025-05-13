@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='barra'>
+    <div>
       <div className='dropdown-container'>
         <Dropdown className='dropdown'>
           <Dropdown.Toggle variant="success" className="dropdown-basic">

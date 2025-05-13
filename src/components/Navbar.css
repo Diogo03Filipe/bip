@@ -21,7 +21,7 @@
 }
 
 .dropdown-container {
-  margin-top: -225px;
+  padding-top: env(safe-area-inset-top); /* Adds padding for status bar/notch */
   display: flex; /* Align dropdowns side by side */
   gap: 10px; /* Space between dropdowns */
   background-color: black;
