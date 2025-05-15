@@ -22,10 +22,6 @@ body {
     text-align: center;
 }
 
-.map{
-    height: 2000px;
-}
-
 /* Container */
 .container {
     display: flex; /* Use flexbox for centering */
