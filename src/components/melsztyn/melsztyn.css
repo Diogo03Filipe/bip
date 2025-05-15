@@ -11,26 +11,7 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Image Styling */
-.img {
-    width: 80%; /* Reduced width for the image */
-    padding-left: 10%;
-    max-width: 600px; /* Set a maximum width */
-    height: auto; /* Maintains aspect ratio */
-    margin-top: 20px;
-    margin-left: 10%; /* Add left margin */
-}
 
-/* Map Styling */
-.map {
-    padding-top: 5%;
-    padding-left: 15%;
-    width: 70%; /* Reduced width for the map */
-    max-width: 600px; /* Set a maximum width */
-    height: 300px; /* Set a fixed height for the map */
-    margin-top: 20px;
-    margin-left: 10%; /* Add left margin */
-}
 
 /* Text Styling */
 .text {
@@ -39,6 +20,10 @@ body {
     font-size: 1.2rem; /* Scales with screen size */
     font-weight: bold;
     text-align: center;
+}
+
+.map{
+    height: 2000px;
 }
 
 /* Container */

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import './melsztyn.css'
 import img from '../../assets/melsztyn.png';
-import './melsztyn.css';
 import { useLanguage } from '../language'; // Adjust import path as needed
 
 const Melsztyn = () => {
@@ -62,7 +62,7 @@ const Melsztyn = () => {
 
   return (
     <div className="container">
-      <div className='title2'>
+      <div className='title'>
         <b>{translations[language].melsztyn.title}</b>
       </div>
 
