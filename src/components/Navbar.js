@@ -38,7 +38,7 @@ const Navbar = () => {
     <div className="dropdown-container" ref={dropdownRef}>
       {/* Locations Dropdown */}
       <div className="dropdown">
-        <button 
+        <button
           className="dropdown-toggle dropdown-basic"
           onClick={() => toggleDropdown('locations')}
         >
@@ -67,7 +67,7 @@ const Navbar = () => {
 
       {/* Gastronomy Dropdown */}
       <div className="dropdown">
-        <button 
+        <button
           className="dropdown-toggle"
           onClick={() => toggleDropdown('gastronomy')}
         >
@@ -75,11 +75,44 @@ const Navbar = () => {
         </button>
         {openDropdown === 'gastronomy' && (
           <div className="dropdown-menu">
-            <Link to="anotherLink1" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Another Link 1' : 'Inny Link 1'}
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Cake with Beans' : 'Ciasto z fasoli'}
             </Link>
             <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Another Link 2' : 'Inny Link 2'}
+              {language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}
+            </Link>
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Borscht' : 'Barszcz'}
+            </Link>
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Baked Beans' : 'Fasolka po Bretońsku'}
+            </Link>
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Sour rye soup' : 'Żurek'}
+            </Link>
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Pierogi' : 'Pierogi'}
+            </Link>
+          </div>
+        )}
+      </div>
+
+      {/* Traditions Dropdown */}
+      <div className="dropdown">
+        <button
+          className="dropdown-toggle"
+          onClick={() => toggleDropdown('traditions')}
+        >
+          {translations[language].traditions}
+        </button>
+        {openDropdown === 'traditions' && (
+          <div className="dropdown-menu">
+            <Link to="anotherLink1" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
+            </Link>
+            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+              {language === 'en' ? 'Retirement Homes' :
+                <span style={{ display: 'inline-block' }}>Domy Spokojnej <br /> Starosci</span>}
             </Link>
           </div>
         )}

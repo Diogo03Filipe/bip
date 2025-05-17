@@ -12,6 +12,7 @@ export const LanguageProvider = ({ children }) => {
       welcome: ukBanner,
       locations: "Locations",
       gastronomy: "Gastronomy",
+      traditions: "Traditions",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -45,6 +46,7 @@ export const LanguageProvider = ({ children }) => {
       welcome: plBanner,
       locations: "Lokalizacje",
       gastronomy: "Gastronomia",
+      traditions: "Tradycje",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -53,7 +55,7 @@ export const LanguageProvider = ({ children }) => {
         stIdzi: "Św. Idzi Zakliczyn",
       },
       zakliczyn: {
-        title: "Zaklinczyn",
+        title: "Zakliczyn",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...\nLorem ipsum dolor sit amet, consectetur adipiscing elit..."
       },
       melsztyn: {

@@ -39,10 +39,10 @@
   color: white; /* Button text color */
   border: none; /* Remove border */
   border-radius: 5px; /* Rounded corners */
-  padding: 10px 15px; /* Padding for the button */
+  padding: 6px 10px; /* Padding for the button */
   transition: background-color 0.3s; /* Smooth transition for hover effect */
   margin-left: 7px;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .dropdown-toggle:hover {
@@ -55,7 +55,7 @@
   background-color: #f8f9fa; /* Add a light background color */
   border-radius: 5px; /* Rounded corners for the dropdown */
   text-decoration: none;
-  width: 150px;
+  width: 180px;
 }
 
 .dropdown-item {
