@@ -28,7 +28,7 @@
   padding-top: env(safe-area-inset-top, 20px); /* Safe area for notches/status bar */
   z-index: 1000;
   display: flex;
-  gap: 10px;
+  gap: 0px;
   background-color: black;
   width: 100%;
   height: calc(60px + env(safe-area-inset-top, 20px)); /* Total height includes padding */
