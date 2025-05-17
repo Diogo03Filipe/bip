@@ -1,22 +1,21 @@
 import React, { useEffect, useRef } from 'react';
 import img from '../../assets/musicCenter.png';
 import './MusicCenter.css';
+import { useLanguage } from '../language'; // Adjust import path as needed
 
 const MusicCenter = () => {
+  const { language, translations } = useLanguage();
+
   const mapRef = useRef(null);
 
-    useEffect(() => {
-        // Check if HERE Maps SDK is loaded
-        const checkSDKLoaded = () => {
-            if (!window.H || !window.H.service) {
-                console.error('❌ HERE Maps SDK not loaded. Check script imports in index.html.');
-                return false;
-            }
-            return true;
-        };
+  useEffect(() => {
+    // Check if HERE Maps SDK is loaded
+    if (!window.H || !window.H.service) {
+      console.error('❌ HERE Maps SDK not loaded. Check script imports in index.html.');
+      return;
+    }
 
-        if (!checkSDKLoaded()) return; // Exit if SDK is not loaded
-        console.log('✅ HERE Maps SDK loaded successfully');
+    console.log('✅ HERE Maps SDK loaded successfully');
 
     try {
       const platform = new window.H.service.Platform({
@@ -25,23 +24,10 @@ const MusicCenter = () => {
 
       const defaultLayers = platform.createDefaultLayers();
 
-        if (!mapRef.current) {
-            console.error('❌ Map container not found.');
-            return;
-        }
-
-        console.log('✅ Map container found:', mapRef.current);
-
-
-        console.log('✅ Map container found:', mapRef.current);
-
-
-        console.log('✅ Map container found:', mapRef.current);
-
-
-        console.log('✅ Map container found:', mapRef.current);
-
-
+      if (!mapRef.current) {
+        console.error('❌ Map container not found.');
+        return;
+      }
 
       console.log('✅ Map container found:', mapRef.current);
 
@@ -64,7 +50,7 @@ const MusicCenter = () => {
 
       new window.H.mapevents.Behavior(new window.H.mapevents.MapEvents(map));
 
-      const marker = new window.H.map.Marker({ lat: 49.8548526, lng: 20.8304498 });
+      const marker = new window.H.map.Marker({ lat: 49.872923, lng: 20.766766 });
       map.addObject(marker);
 
       return () => map.dispose();
@@ -75,18 +61,28 @@ const MusicCenter = () => {
 
   return (
     <>
-      <div className='title'>
-        <b>Europejskie Centrum Muzyki Krzysztofa Pendereckiego</b>
-      </div>
+      <p className="text"> Music Center </p>
+      <div className="city-center-container">
 
-      <div>
-        <img src={img} alt="City Center" className="img" />
-        <p className="text container">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-        </p>
-        <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+        {/* Full-width image section */}
+        <div className="image-container">
+          <img
+            src={img}
+            alt="Music Center city"
+            className="full-width-img"
+          />
+        </div>
+
+        <div className='description'>
+          {translations[language].MusicCenter.description.split('\n').map((line, i) => (
+            <React.Fragment key={i}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </div>
       </div>
+      <div ref={mapRef} className="map" aria-label="Map showing the Music Center" />
     </>
   );
 };

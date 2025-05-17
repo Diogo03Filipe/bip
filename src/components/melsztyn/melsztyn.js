@@ -61,24 +61,30 @@ const Melsztyn = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className='title'>
-        <b>{translations[language].melsztyn.title}</b>
-      </div>
+    <>
+      <p className="text"> Melsztyn </p>
+      <div className="city-center-container">
 
-      <div>
-        <img src={img} alt="City Center" className="img" />
-        <p className="text">
+        {/* Full-width image section */}
+        <div className="image-container">
+          <img
+            src={img}
+            alt="Melsztyn city view"
+            className="full-width-img"
+          />
+        </div>
+
+        <div className='description'>
           {translations[language].melsztyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}
-              <br/>
+              <br />
             </React.Fragment>
           ))}
-        </p>
-        <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+        </div>
       </div>
-    </div>
+      <div ref={mapRef} className="map" aria-label="Map showing Melsztyn" />
+    </>
   );
 };
 

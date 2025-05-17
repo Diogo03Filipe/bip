@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import img from '../../assets/StIdzi.png';
 import './StIdzi.css';
+import { useLanguage } from '../language'; // Adjust import path as needed
 
 const StIdzi = () => {
+  const { language, translations } = useLanguage();
+
   const mapRef = useRef(null);
 
   useEffect(() => {
@@ -47,7 +50,7 @@ const StIdzi = () => {
 
       new window.H.mapevents.Behavior(new window.H.mapevents.MapEvents(map));
 
-      const marker = new window.H.map.Marker({ lat: 49.849997, lng: 20.816663 });
+      const marker = new window.H.map.Marker({ lat: 49.872923, lng: 20.766766 });
       map.addObject(marker);
 
       return () => map.dispose();
@@ -58,18 +61,28 @@ const StIdzi = () => {
 
   return (
     <>
-      <div className='title'>
-        <b>St. Idzi Zakliczyn</b>
-      </div>
+      <p className="text"> St Idzi Zakliczyn </p>
+      <div className="city-center-container">
 
-      <div>
-        <img src={img} alt="City Center" className="img" />
-        <p className="text container">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-        </p>
-        <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+        {/* Full-width image section */}
+        <div className="image-container">
+          <img
+            src={img}
+            alt="St Idzi Zakliczyn city"
+            className="full-width-img"
+          />
+        </div>
+
+        <div className='description'>
+          {translations[language].StIdziZakliczyn.description.split('\n').map((line, i) => (
+            <React.Fragment key={i}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </div>
       </div>
+      <div ref={mapRef} className="map" aria-label="Map showing St Idzi Zakliczyn" />
     </>
   );
 };

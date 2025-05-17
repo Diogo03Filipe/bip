@@ -83,7 +83,7 @@ const CityCenter = () => {
           ))}
         </div>
       </div>
-      <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+      <div ref={mapRef} className="map" aria-label="Map showing Zakliczyn" />
     </>
   );
 };
