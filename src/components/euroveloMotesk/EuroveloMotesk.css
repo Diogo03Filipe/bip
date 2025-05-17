@@ -18,11 +18,8 @@
 }
 
 .map {
-    max-width: 800px;
-    /* Adjust as needed */
     margin: 0 auto;
-    /* Centers horizontally */
-    width: 100%;
+    width: 100px;
     height: 400px;
 }
 
