@@ -60,29 +60,31 @@ const CityCenter = () => {
     }
   }, []);
 
- return (
-    <div className="city-center-container">
+  return (
+    <>
       <p className="text"> Zakliczyn </p>
-      {/* Full-width image section */}
-      <div className="image-container">
-        <img 
-          src={img} 
-          alt="Zakliczyn city view" 
-          className="full-width-img" 
-        />
-      </div>
+      <div className="city-center-container">
 
-      <div className='description'>
+        {/* Full-width image section */}
+        <div className="image-container">
+          <img
+            src={img}
+            alt="Zakliczyn city view"
+            className="full-width-img"
+          />
+        </div>
+
+        <div className='description'>
           {translations[language].zakliczyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}
-              <br/>
+              <br />
             </React.Fragment>
           ))}
-
-        <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+        </div>
       </div>
-    </div>
+      <div ref={mapRef} className="map" aria-label="Map showing the City Center" />
+    </>
   );
 };
 
