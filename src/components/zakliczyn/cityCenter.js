@@ -63,13 +63,13 @@ const CityCenter = () => {
   return (
     <div className="container">
       <div className='title2'>
-        <b>{translations[language].melsztyn.title}</b>
+        <b>{translations[language].zakliczyn.title}</b>
       </div>
 
       <div>
         <img src={img} alt="City Center" className="img" />
         <p className="text">
-          {translations[language].melsztyn.description.split('\n').map((line, i) => (
+          {translations[language].zakliczyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}
               <br/>

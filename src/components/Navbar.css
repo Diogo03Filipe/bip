@@ -42,7 +42,7 @@
   padding: 10px 15px; /* Padding for the button */
   transition: background-color 0.3s; /* Smooth transition for hover effect */
   margin-left: 7px;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .dropdown-toggle:hover {

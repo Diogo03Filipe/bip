@@ -46,7 +46,7 @@ export const LanguageProvider = ({ children }) => {
       locations: "Lokalizacje",
       gastronomy: "Gastronomia",
       menuItems: {
-        zaklinczyn: "Zakliczyn",
+        zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
         musicCenter: "Centrum Muzyczne",
         eurovelo: "Eurovelo Mostek",

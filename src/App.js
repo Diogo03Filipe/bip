@@ -14,7 +14,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="zaklinczyn/cityCenter" element={<CityCenter />} />
+        <Route path="zakliczyn/cityCenter" element={<CityCenter />} />
         <Route path="melsztyn/melsztyn" element={<Melsztyn />} />
         <Route path="musicCenter/MusicCenter" element={<MusicCenter />} />
         <Route path="euroveloMotesk/EuroveloMotesk" element={<EuroveloMotesk />} />
