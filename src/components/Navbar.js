@@ -5,126 +5,105 @@ import './Navbar.css';
 
 const Navbar = () => {
   const { language, setLanguage, translations } = useLanguage();
-  const [openDropdown, setOpenDropdown] = useState(null);
-  const dropdownRef = useRef(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [expandedSection, setExpandedSection] = useState(null);
+  const wrapperRef = useRef(null);
 
-  // Close dropdown when clicking outside
+  const toggleLanguage = () => {
+    setLanguage(language === 'en' ? 'pl' : 'en');
+  };
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+    setExpandedSection(null);
+  };
+
+  const toggleSection = (section) => {
+    setExpandedSection(expandedSection === section ? null : section);
+  };
+
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setOpenDropdown(null);
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+        setSidebarOpen(false);
+        setExpandedSection(null);
       }
     };
-
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
-  const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'pl' : 'en');
-  };
-
-  const toggleDropdown = (dropdownName) => {
-    setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
-  };
-
-  const closeDropdown = () => {
-    setOpenDropdown(null);
-  };
-
   return (
-    <div className="dropdown-container" ref={dropdownRef}>
-      {/* Locations Dropdown */}
-      <div className="dropdown">
-        <button
-          className="dropdown-toggle dropdown-basic"
-          onClick={() => toggleDropdown('locations')}
-        >
-          {translations[language].locations}
+    <div className="navbar-wrapper" ref={wrapperRef}>
+      <div className="navbar-header">
+        <button className="hamburger" onClick={toggleSidebar}>
+          {sidebarOpen ? '×' : '☰'}
         </button>
-        {openDropdown === 'locations' && (
-          <div className="dropdown-menu">
-            <Link to="Locations/cityCenter" className="dropdown-item" onClick={closeDropdown}>
-              {translations[language].menuItems.zakliczyn}
-            </Link>
-            <Link to="Locations/melsztyn" className="dropdown-item" onClick={closeDropdown}>
-              {translations[language].menuItems.melsztyn}
-            </Link>
-            <Link to="Locations/musicCenter" className="dropdown-item" onClick={closeDropdown}>
-              {translations[language].menuItems.musicCenter}
-            </Link>
-            <Link to="Locations/EuroveloMotesk" className="dropdown-item" onClick={closeDropdown}>
-              {translations[language].menuItems.eurovelo}
-            </Link>
-            <Link to="Locations/StIdzi" className="dropdown-item" onClick={closeDropdown}>
-              {translations[language].menuItems.stIdzi}
-            </Link>
-          </div>
-        )}
+        <div className="lang" onClick={toggleLanguage}>
+          <img
+            src={translations[language].welcome}
+            alt={language === 'en' ? 'English' : 'Polish'}
+            className="lang-img"
+          />
+        </div>
       </div>
 
-      {/* Gastronomy Dropdown */}
-      <div className="dropdown">
-        <button
-          className="dropdown-toggle"
-          onClick={() => toggleDropdown('gastronomy')}
-        >
-          {translations[language].gastronomy}
-        </button>
-        {openDropdown === 'gastronomy' && (
-          <div className="dropdown-menu">
-            <Link to="Gastronomy/CakeWithBeans" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Cake with Beans' : 'Ciasto z fasoli'}
-            </Link>
-            <Link to="Gastronomy/BeanPastries" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}
-            </Link>
-            <Link to="Gastronomy/Borscht" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Borscht' : 'Barszcz'}
-            </Link>
-            <Link to="Gastronomy/BakedBeans" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Baked Beans' : 'Fasolka po Bretońsku'}
-            </Link>
-            <Link to="Gastronomy/SourRyeSoup" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Sour rye soup' : 'Żurek'}
-            </Link>
-            <Link to="Gastronomy/Pierogi" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Pierogi' : 'Pierogi'}
-            </Link>
-          </div>
-        )}
-      </div>
+      <div className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
+        <button className="close-btn" onClick={toggleSidebar}>×</button>
 
-      {/* Traditions Dropdown */}
-      <div className="dropdown">
-        <button
-          className="dropdown-toggle"
-          onClick={() => toggleDropdown('traditions')}
-        >
-          {translations[language].traditions}
-        </button>
-        {openDropdown === 'traditions' && (
-          <div className="dropdown-menu">
-            <Link to="Traditions/FolkCostumes" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
-            </Link>
-            <Link to="Traditions/RetirementHomes" className="dropdown-item" onClick={closeDropdown}>
-              {language === 'en' ? 'Retirement Homes' :
-                <span style={{ display: 'inline-block' }}>Domy Spokojnej <br /> Starosci</span>}
-            </Link>
+        {/* LOCATIONS */}
+        <div className="menu-section">
+          <div className="section-header" onClick={() => toggleSection('locations')}>
+            {translations[language].locations}
           </div>
-        )}
-      </div>
+          {expandedSection === 'locations' && (
+            <div className="section-items">
+              <Link to="Locations/cityCenter" onClick={toggleSidebar}>{translations[language].menuItems.zakliczyn}</Link>
+              <Link to="Locations/melsztyn" onClick={toggleSidebar}>{translations[language].menuItems.melsztyn}</Link>
+              <Link to="Locations/musicCenter" onClick={toggleSidebar}>{translations[language].menuItems.musicCenter}</Link>
+              <Link to="Locations/EuroveloMotesk" onClick={toggleSidebar}>{translations[language].menuItems.eurovelo}</Link>
+              <Link to="Locations/StIdzi" onClick={toggleSidebar}>{translations[language].menuItems.stIdzi}</Link>
+            </div>
+          )}
+        </div>
 
-      {/* Language Toggle */}
-      <div className="lang" onClick={toggleLanguage}>
-        <img
-          src={translations[language].welcome}
-          alt={language === 'en' ? 'English' : 'Polish'}
-          style={{ width: '100%', height: '100%' }}
-        />
+        {/* GASTRONOMY */}
+        <div className="menu-section">
+          <div className="section-header" onClick={() => toggleSection('gastronomy')}>
+            {translations[language].gastronomy}
+          </div>
+          {expandedSection === 'gastronomy' && (
+            <div className="section-items">
+              <Link to="Gastronomy/CakeWithBeans" onClick={toggleSidebar}>{language === 'en' ? 'Cake with Beans' : 'Ciasto z fasoli'}</Link>
+              <Link to="Gastronomy/BeanPastries" onClick={toggleSidebar}>{language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}</Link>
+              <Link to="Gastronomy/Borscht" onClick={toggleSidebar}>{language === 'en' ? 'Borscht' : 'Barszcz'}</Link>
+              <Link to="Gastronomy/BakedBeans" onClick={toggleSidebar}>{language === 'en' ? 'Baked Beans' : 'Fasolka po Bretońsku'}</Link>
+              <Link to="Gastronomy/SourRyeSoup" onClick={toggleSidebar}>{language === 'en' ? 'Sour rye soup' : 'Żurek'}</Link>
+              <Link to="Gastronomy/Pierogi" onClick={toggleSidebar}>Pierogi</Link>
+            </div>
+          )}
+        </div>
+
+        {/* TRADITIONS */}
+        <div className="menu-section">
+          <div className="section-header" onClick={() => toggleSection('traditions')}>
+            {translations[language].traditions}
+          </div>
+          {expandedSection === 'traditions' && (
+            <div className="section-items">
+              <Link to="Traditions/FolkCostumes" onClick={toggleSidebar}>
+                {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
+              </Link>
+              <Link to="Traditions/RetirementHomes" onClick={toggleSidebar}>
+                {language === 'en'
+                  ? 'Retirement Homes'
+                  : <span>Domy Spokojnej<br />Starości</span>}
+              </Link>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
