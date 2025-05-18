@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from './language';
 import './Navbar.css';
 
@@ -8,6 +8,7 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [expandedSection, setExpandedSection] = useState(null);
   const wrapperRef = useRef(null);
+  const location = useLocation();
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'pl' : 'en');
@@ -20,6 +21,31 @@ const Navbar = () => {
 
   const toggleSection = (section) => {
     setExpandedSection(expandedSection === section ? null : section);
+  };
+
+  // Function to return sidebar background color based on current route
+  const getSidebarBgColor = () => {
+    switch (location.pathname) {
+      case '/Locations/cityCenter':
+      case '/Locations/melsztyn':
+      case '/Locations/EuroveloMotesk':
+      case '/Locations/musicCenter':
+      case '/Locations/StIdzi':
+        return '#acd8fc';
+      case '/Gastronomy/CakeWithBeans':
+      case '/Gastronomy/BakedBeans':
+      case '/Gastronomy/Borscht':
+      case '/Gastronomy/BeanPastries':
+      case '/Gastronomy/Pierogi':
+      case '/Gastronomy/SourRyeSoup':
+        return '#fcece3';
+      case '/Traditions/FolkCostumes':
+        return '#fcedfc';
+      case '/ElderlyHomes/RetirementHomes':
+        return '#efffcc';
+      default:
+        return '#e8e8e8';
+    }
   };
 
   useEffect(() => {
@@ -50,7 +76,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
+      <div
+        className={`sidebar ${sidebarOpen ? 'open' : ''}`}
+        style={{ backgroundColor: getSidebarBgColor() }}
+      >
         <button className="close-btn" onClick={toggleSidebar}>×</button>
 
         {/* LOCATIONS */}
@@ -96,10 +125,19 @@ const Navbar = () => {
               <Link to="Traditions/FolkCostumes" onClick={toggleSidebar}>
                 {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
               </Link>
-              <Link to="Traditions/RetirementHomes" onClick={toggleSidebar}>
-                {language === 'en'
-                  ? 'Retirement Homes'
-                  : <span>Domy Spokojnej<br />Starości</span>}
+            </div>
+          )}
+        </div>
+
+        {/* ELDERLY HOMES */}
+        <div className="menu-section">
+          <div className="section-header" onClick={() => toggleSection('elderlyHomes')}>
+            {translations[language].elderlyHomes}
+          </div>
+          {expandedSection === 'elderlyHomes' && (
+            <div className="section-items">
+              <Link to="ElderlyHomes/RetirementHomes" onClick={toggleSidebar}>
+                {language === 'en' ? 'Retirement Homes' : 'Domy Spokojnej Starości'}
               </Link>
             </div>
           )}

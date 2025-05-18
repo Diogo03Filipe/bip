@@ -9,7 +9,7 @@ const RetirementHomes = () => {
 
   useEffect(() => {
     // Set background color for THIS PAGE
-    document.body.style.backgroundColor = '#ffe8ff'; // Replace with your desired color
+    document.body.style.backgroundColor = '#e7fcb8'; // Replace with your desired color
 
     // Cleanup: Reset background when leaving the page
     return () => {

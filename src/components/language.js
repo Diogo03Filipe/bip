@@ -13,6 +13,7 @@ export const LanguageProvider = ({ children }) => {
       locations: "Locations",
       gastronomy: "Gastronomy",
       traditions: "Traditions",
+      elderlyHomes: "Elderly Homes",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -47,6 +48,7 @@ export const LanguageProvider = ({ children }) => {
       locations: "Lokalizacje",
       gastronomy: "Gastronomia",
       traditions: "Tradycje",
+      elderlyHomes: "Domy dla osób starszych",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",

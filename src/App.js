@@ -34,7 +34,7 @@ const App = () => {
         <Route path="Gastronomy/SourRyeSoup" element={<SourRyeSoup />} />
         <Route path="Gastronomy/Pierogi" element={<Pierogi />} />
         <Route path="Traditions/FolkCostumes" element={<FolkCostumes />} />
-        <Route path="Traditions/RetirementHomes" element={<RetirementHomes />} />
+        <Route path="ElderlyHomes/RetirementHomes" element={<RetirementHomes />} />
       </Routes>
     </Router>
   );
