@@ -1,15 +1,14 @@
 import React, { useEffect, useRef } from 'react';
-import img from '../../assets/EuroveloMostek.png';
-import './EuroveloMotesk.css';
-import { useLanguage } from '../language';
+import './melsztyn.css'
+import img from '../../../assets/melsztyn.png';
+import { useLanguage } from '../../language'; // Adjust import path as needed
 
-const EuroveloMotesk = () => {
-  const { language, translations } = useLanguage();
+const Melsztyn = () => {
+
+const { language, translations } = useLanguage();
   const mapRef = useRef(null);
 
   useEffect(() => {
-    // Set background color for THIS PAGE
-    document.body.style.backgroundColor = '#93c9f5'; // Replace with your desired color
 
     // HERE Maps initialization code (keep your existing logic)
     if (!window.H || !window.H.service) {
@@ -39,6 +38,8 @@ const EuroveloMotesk = () => {
     const marker = new window.H.map.Marker({ lat: 49.872923, lng: 20.766766 });
     map.addObject(marker);
 
+    // Set background color for THIS PAGE
+    document.body.style.backgroundColor = '#93c9f5'; // Replace with your desired color
     // Cleanup: Reset background when leaving the page
     return () => {
       document.body.style.backgroundColor = ''; // Revert to default
@@ -48,17 +49,20 @@ const EuroveloMotesk = () => {
 
   return (
     <>
-      <p className="text">Eurovelo Mostek</p>
+      <p className="text"> Melsztyn </p>
       <div className="city-center-container">
+
+        {/* Full-width image section */}
         <div className="image-container">
           <img
             src={img}
-            alt="Eurovelo Mostek city"
+            alt="Melsztyn city view"
             className="full-width-img"
           />
         </div>
-        <div className="description">
-          {translations[language].EuroveloMostek.description.split('\n').map((line, i) => (
+
+        <div className='description'>
+          {translations[language].melsztyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}
               <br />
@@ -66,9 +70,9 @@ const EuroveloMotesk = () => {
           ))}
         </div>
       </div>
-      <div ref={mapRef} className="map" aria-label="Map showing the Eurovelo Mostek" />
+      <div ref={mapRef} className="map" aria-label="Map showing Melsztyn" />
     </>
   );
 };
 
-export default EuroveloMotesk;
+export default Melsztyn;

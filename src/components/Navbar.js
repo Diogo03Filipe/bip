@@ -46,19 +46,19 @@ const Navbar = () => {
         </button>
         {openDropdown === 'locations' && (
           <div className="dropdown-menu">
-            <Link to="zakliczyn/cityCenter" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Locations/cityCenter" className="dropdown-item" onClick={closeDropdown}>
               {translations[language].menuItems.zakliczyn}
             </Link>
-            <Link to="melsztyn/melsztyn" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Locations/melsztyn" className="dropdown-item" onClick={closeDropdown}>
               {translations[language].menuItems.melsztyn}
             </Link>
-            <Link to="musicCenter/musicCenter" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Locations/musicCenter" className="dropdown-item" onClick={closeDropdown}>
               {translations[language].menuItems.musicCenter}
             </Link>
-            <Link to="euroveloMotesk/EuroveloMotesk" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Locations/EuroveloMotesk" className="dropdown-item" onClick={closeDropdown}>
               {translations[language].menuItems.eurovelo}
             </Link>
-            <Link to="StIdzi/StIdzi" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Locations/StIdzi" className="dropdown-item" onClick={closeDropdown}>
               {translations[language].menuItems.stIdzi}
             </Link>
           </div>
@@ -75,22 +75,22 @@ const Navbar = () => {
         </button>
         {openDropdown === 'gastronomy' && (
           <div className="dropdown-menu">
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/CakeWithBeans" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Cake with Beans' : 'Ciasto z fasoli'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/BeanPastries" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/Borscht" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Borscht' : 'Barszcz'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/BakedBeans" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Baked Beans' : 'Fasolka po Bretońsku'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/SourRyeSoup" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Sour rye soup' : 'Żurek'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Gastronomy/Pierogi" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Pierogi' : 'Pierogi'}
             </Link>
           </div>
@@ -107,10 +107,10 @@ const Navbar = () => {
         </button>
         {openDropdown === 'traditions' && (
           <div className="dropdown-menu">
-            <Link to="anotherLink1" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Traditions/FolkCostumes" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
             </Link>
-            <Link to="anotherLink2" className="dropdown-item" onClick={closeDropdown}>
+            <Link to="Traditions/RetirementHomes" className="dropdown-item" onClick={closeDropdown}>
               {language === 'en' ? 'Retirement Homes' :
                 <span style={{ display: 'inline-block' }}>Domy Spokojnej <br /> Starosci</span>}
             </Link>
