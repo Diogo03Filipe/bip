@@ -12,6 +12,10 @@ const Home = () => {
 
   useEffect(() => {
     console.log('Home component mounted');
+
+    // Set background color for THIS PAGE
+    document.body.style.backgroundColor = '#f7ddd0'; // Replace with your desired color
+
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => {
         const nextImage = (prevImage + 1) % images.length;
@@ -22,6 +26,7 @@ const Home = () => {
 
     return () => {
       clearInterval(interval);
+      document.body.style.backgroundColor = ''; // Revert to default
       console.log('Home component unmounted, interval cleared');
     };
   }, [images.length]);

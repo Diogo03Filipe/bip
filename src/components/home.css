@@ -1,6 +1,12 @@
 .img {
-  width: 350px ; /* Set a fixed width */
-  height: 150px ; /* Set a fixed height */
-  object-fit: cover ; /* Maintain aspect ratio */
-  display: block; /* Ensure images are block elements */
+  object-fit: cover;
+  /* Maintain aspect ratio */
+  display: block;
+  /* Ensure images are block elements */
+  width: 600px;
+  /* Set your desired width */
+  height: 200px;
+  /* Height adjusts proportionally */
+  max-width: 100%;
+  /* Prevents overflow on small screens */
 }
