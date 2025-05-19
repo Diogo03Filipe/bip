@@ -35,15 +35,15 @@ const CakeWithBeans = () => {
       </div>
       <div className='ingredients-rect'>
         <div className='ingredients-text'>Ingredients</div>
-        <div className='ingredients'>● 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
-        <div className='ingredients'>● 3 large eggs</div>
-        <div className='ingredients'>● 1/2 cup of granulated sugar</div>
-        <div className='ingredients'>● 1/4 cup unsalted butter, melted and cooled</div>
-        <div className='ingredients'>● 1 teaspoon vanilla extract</div>
-        <div className='ingredients'>● 1/4 tea spoon almond extract</div>
-        <div className='ingredients'>● 1/4 ground almonds</div>
-        <div className='ingredients'>● 1/4 teaspoon salt</div>
-        <div className='ingredients'>● Powdered sugar for dustig (Opticional)</div>
+        <div className='ingredients'>• 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
+        <div className='ingredients'>• 3 large eggs</div>
+        <div className='ingredients'>• 1/2 cup of granulated sugar</div>
+        <div className='ingredients'>• 1/4 cup unsalted butter, melted and cooled</div>
+        <div className='ingredients'>• 1 teaspoon vanilla extract</div>
+        <div className='ingredients'>• 1/4 tea spoon almond extract</div>
+        <div className='ingredients'>• 1/4 ground almonds</div>
+        <div className='ingredients'>• 1/4 teaspoon salt</div>
+        <div className='ingredients'>• Powdered sugar for dustig (Opticional)</div>
       </div>
       <div className='instructions-rect'>
         <div className='instructions-text'>Instructions</div>
@@ -53,10 +53,10 @@ const CakeWithBeans = () => {
         <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
         
         <div className='tips-text'>Tips</div>
-        <div className='tips'>● Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
-        <div className='tips'>● You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
-        <div className='tips'>● If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
-        <div className='tips'>● Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
+        <div className='tips'>• Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
+        <div className='tips'>• You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
+        <div className='tips'>• If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
+        <div className='tips'>• Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
       </div>
     </>
   );

@@ -2,3 +2,91 @@
     margin-top: 0px;
     font-weight: bold;
 }
+
+.text {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.description-rect {
+    background-color: lightgrey;
+    opacity: 85%;
+
+    margin-top: 20px;
+    margin-left: 12.5px;
+    height: 135px;
+    width: 385px;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    margin-top: 6.5px;
+}
+
+.ingredients-rect {
+    background-color: lightgrey;
+    opacity: 85%;
+
+    margin-top: 20px;
+    margin-left: 12.5px;
+    height: 350px;
+    width: 385px;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+
+.ingredients-text {
+    margin-left: 145px;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+
+.ingredients {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 6.5px;
+}
+
+.instructions-rect {
+    background-color: lightgrey;
+    opacity: 85%;
+
+    margin-top: 20px;
+    margin-left: 12.5px;
+    height: 575px;
+    width: 385px;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+
+.instructions-text {
+    margin-left: 145px;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+
+.instructions {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 6.5px;
+}
+
+.tips-text {
+    margin-top: 15px;
+    margin-left: 175px;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+
+.tips {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 6.5px;
+}
