@@ -51,7 +51,7 @@ const CakeWithBeans = () => {
         <div className='instructions'>2. In a food processor or blender, combine the beans, eggs, sugar, melted butter,
         vanilla extract, almond extract, ground almonds, and salt. Process until completly smooth.</div>
         <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
-        <b>----------------------------------------------------------------</b>
+        
         <div className='tips-text'>Tips</div>
         <div className='tips'>● Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
         <div className='tips'>● You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
