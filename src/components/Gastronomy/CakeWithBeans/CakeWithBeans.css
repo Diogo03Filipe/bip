@@ -1,9 +1,10 @@
-.text {
-    margin-top: 0px;
+.cake-text {
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.description-rect {
+.cake-description-rect {
     background-color: lightgrey;
     opacity: 85%;
 
@@ -12,17 +13,16 @@
     height: 135px;
     width: 385px;
     border-radius: 15px;
-    padding-top: 6px;
 }
 
-.description {
+.cake-description {
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    padding: 10px;
+    text-align: justify;
 }
 
-.ingredients-rect {
+.cake-ingredients-rect {
     background-color: lightgrey;
     opacity: 85%;
 
@@ -34,20 +34,20 @@
     padding-top: 6px;
 }
 
-.ingredients-text {
+.cake-ingredients-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.ingredients {
+.cake-ingredients {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.instructions-rect {
+.cake-instructions-rect {
     background-color: lightgrey;
     opacity: 85%;
 
@@ -59,27 +59,27 @@
     padding-top: 6px;
 }
 
-.instructions-text {
+.cake-instructions-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.instructions {
+.cake-instructions {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.tips-text {
+.cake-tips-text {
     margin-top: 15px;
     margin-left: 175px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.tips {
+.cake-tips {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;

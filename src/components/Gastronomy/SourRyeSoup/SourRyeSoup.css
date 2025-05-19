@@ -1,90 +1,85 @@
-.text {
-    margin-top: 0px;
+.sour-text {
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.text {
-    margin-top: 0px;
-    font-weight: bold;
-}
-
-.description-rect {
+.sour-description-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 135px;
+    height: 110px;
     width: 385px;
     border-radius: 15px;
-    padding-top: 6px;
+    text-align: justify;
 }
 
-.description {
+.sour-description {
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    padding: 10px;
 }
 
-.ingredients-rect {
+.sour-ingredients-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 350px;
+    height: 230px;
     width: 385px;
     border-radius: 15px;
     padding-top: 6px;
 }
 
-.ingredients-text {
+.sour-ingredients-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.ingredients {
+.sour-ingredients {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.instructions-rect {
+.sour-instructions-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 575px;
+    height: 535px;
     width: 385px;
     border-radius: 15px;
     padding-top: 6px;
 }
 
-.instructions-text {
+.sour-instructions-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.instructions {
+.sour-instructions {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.tips-text {
+.sour-tips-text {
     margin-top: 15px;
-    margin-left: 175px;
+    margin-left: 130px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.tips {
+.sour-tips {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;

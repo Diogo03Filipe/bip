@@ -5,7 +5,7 @@ import { useLanguage } from '../../language';
 
 const Pierogi = () => {
   const { language, translations } = useLanguage();
-  
+
 
   useEffect(() => {
     // Set background color for THIS PAGE
@@ -29,34 +29,29 @@ const Pierogi = () => {
           />
         </div>
       </div>
-      <div className='description-rect'>
-        <div className='description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
-        but adapted to be more like a cake. It's moist, delicious and surprisingly made with white beans!</div>
+      <div className='pierogi-description-rect'>
+        <div className='pierogi-description'>Pierogi are a beloved and iconic Polish dumpling.
+        They're a staple of Polish cuisine and are enjoyed in many variations. Here's a breakdown of what makes pierogi so special:</div>
       </div>
-      <div className='ingredients-rect'>
-        <div className='ingredients-text'>Ingredients</div>
-        <div className='ingredients'>• 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
-        <div className='ingredients'>• 3 large eggs</div>
-        <div className='ingredients'>• 1/2 cup of granulated sugar</div>
-        <div className='ingredients'>• 1/4 cup unsalted butter, melted and cooled</div>
-        <div className='ingredients'>• 1 teaspoon vanilla extract</div>
-        <div className='ingredients'>• 1/4 tea spoon almond extract</div>
-        <div className='ingredients'>• 1/4 ground almonds</div>
-        <div className='ingredients'>• 1/4 teaspoon salt</div>
-        <div className='ingredients'>• Powdered sugar for dustig (Opticional)</div>
+      <div className='pierogi-ingredients-rect'>
+        <div className='pierogi-ingredients-text'>Characteristics</div>
+        <div className='pierogi-ingredients'>• <b>Dough:</b> The dough is traditionally made from flour, water, eggs (sometimes), and a bit of salt.
+        It's rolled out thinly and cut out into circles or squares.</div>
+        <div className='pierogi-ingredients'>• <b>Fillings:</b></div>
+        <div className='pierogi-ingredients'>• Potato and Cheese (Pierogi Ruskie): A classic combination of mashed potatoes and farmer's cheese or white cheese.</div>
+        <div className='pierogi-ingredients'>• Meat (Pierogi z Mięsem): Filled with ground meat, often pork or beef, seasoned with onions and spices.</div>
+        <div className='pierogi-ingredients'>• Cabbage and Mushroom (Pierogi z Kapustą i Grzybami): A vegetarian option with a flavorful filling of sauerkraut and mushrooms.</div>
       </div>
-      <div className='instructions-rect'>
-        <div className='instructions-text'>Instructions</div>
-        <div className='instructions'>1. Preheat the oven at 175ºC (350ºF). Grease and flour a 9-inch round cake pan.</div>
-        <div className='instructions'>2. In a food processor or blender, combine the beans, eggs, sugar, melted butter,
-        vanilla extract, almond extract, ground almonds, and salt. Process until completly smooth.</div>
-        <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
-        
-        <div className='tips-text'>Tips</div>
-        <div className='tips'>• Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
-        <div className='tips'>• You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
-        <div className='tips'>• If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
-        <div className='tips'>• Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
+      <div className='pierogi-instructions-rect'>
+        <div className='pierogi-instructions-text'>Instructions</div>
+        <div className='pierogi-instructions'>Pierogi are typically boiled until they float, and then they can be pan-fried or baked for added flavor and texture</div>
+
+        <div className='pierogi-tips-text'>Pierogi are often served with:</div>
+        <div className='pierogi-tips'>• Sour cream.</div>
+        <div className='pierogi-tips'>• Fried onions.</div>
+        <div className='pierogi-tips'>• Melted butter.</div>
+        <div className='pierogi-tips'>• Bacon bits.</div>
+        <div className='pierogi-tips'>• Sometimes with sugar or fruit sauces for sweet varieties.</div>
       </div>
     </>
   );

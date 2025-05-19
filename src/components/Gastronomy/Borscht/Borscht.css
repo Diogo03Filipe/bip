@@ -1,14 +1,10 @@
-.text {
-    margin-top: 0px;
+.borscht-text {
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.text {
-    margin-top: 0px;
-    font-weight: bold;
-}
-
-.description-rect {
+.borscht-description-rect {
     background-color: lightgrey;
     opacity: 85%;
 
@@ -17,76 +13,75 @@
     height: 135px;
     width: 385px;
     border-radius: 15px;
-    padding-top: 6px;
+    text-align: justify;
 }
 
-.description {
+.borscht-description {
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    padding: 10px;
 }
 
-.ingredients-rect {
+.borscht-ingredients-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 350px;
+    height: 390px;
     width: 385px;
     border-radius: 15px;
     padding-top: 6px;
 }
 
-.ingredients-text {
-    margin-left: 145px;
+.borscht-ingredients-text {
+    margin-left: 90px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.ingredients {
+.borscht-ingredients {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.instructions-rect {
+.borscht-instructions-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 575px;
+    height: 660px;
     width: 385px;
     border-radius: 15px;
     padding-top: 6px;
 }
 
-.instructions-text {
+.borscht-instructions-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.instructions {
+.borscht-instructions {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.tips-text {
+.borscht-tips-text {
     margin-top: 15px;
-    margin-left: 175px;
+    margin-left: 135px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.tips {
+.borscht-tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
+    margin-left: 12.5px;
     margin-top: 6.5px;
 }

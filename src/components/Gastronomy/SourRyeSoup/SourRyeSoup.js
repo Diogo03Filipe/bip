@@ -19,7 +19,7 @@ const SourRyeSoup = () => {
 
   return (
     <>
-      <p className="text">Sour Rye Soup</p>
+      <p className="sour-text">Sour Rye Soup</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -29,34 +29,29 @@ const SourRyeSoup = () => {
           />
         </div>
       </div>
-      <div className='description-rect'>
-        <div className='description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
-        but adapted to be more like a cake. It's moist, delicious and surprisingly made with white beans!</div>
+      <div className='sour-description-rect'>
+        <div className='sour-description'>Sour Rye Soup is a traditional Polish sour rye soup. It's hearty and distinctive dish with a unique flavor profile.</div>
       </div>
-      <div className='ingredients-rect'>
-        <div className='ingredients-text'>Ingredients</div>
-        <div className='ingredients'>• 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
-        <div className='ingredients'>• 3 large eggs</div>
-        <div className='ingredients'>• 1/2 cup of granulated sugar</div>
-        <div className='ingredients'>• 1/4 cup unsalted butter, melted and cooled</div>
-        <div className='ingredients'>• 1 teaspoon vanilla extract</div>
-        <div className='ingredients'>• 1/4 tea spoon almond extract</div>
-        <div className='ingredients'>• 1/4 ground almonds</div>
-        <div className='ingredients'>• 1/4 teaspoon salt</div>
-        <div className='ingredients'>• Powdered sugar for dustig (Opticional)</div>
+      <div className='sour-ingredients-rect'>
+        <div className='sour-ingredients-text'>Ingredients</div>
+        <div className='sour-ingredients'>• Polish Sausage</div>
+        <div className='sour-ingredients'>• Smoked Bacon or ham</div>
+        <div className='sour-ingredients'>• Potatoes</div>
+        <div className='sour-ingredients'>• Hard-boiled eggs</div>
+        <div className='sour-ingredients'>• Onions and Garlic</div>
+        <div className='sour-ingredients'>• Marjoram and orther spices</div>
       </div>
-      <div className='instructions-rect'>
-        <div className='instructions-text'>Instructions</div>
-        <div className='instructions'>1. Preheat the oven at 175ºC (350ºF). Grease and flour a 9-inch round cake pan.</div>
-        <div className='instructions'>2. In a food processor or blender, combine the beans, eggs, sugar, melted butter,
-        vanilla extract, almond extract, ground almonds, and salt. Process until completly smooth.</div>
-        <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
+      <div className='sour-instructions-rect'>
+        <div className='sour-instructions-text'>Characteristics</div>
+        <div className='sour-instructions'>• Sour Base: The defining feature of 'żurek' is its sour, fermented base made from rye flour. 
+        This 'zakwas' (sourdoug starter) gives the soup its characteristic tang.</div>
+        <div className='sour-instructions'>• Variations: There are regional variations of 'żurek'. Some variations may inclue mushrooms, horseradish, or other additions.</div>
+        <div className='sour-instructions'>• Traditional Significance: Żurek is often associated with Easter in Poland, where it's a popular dish served during the holiday.
+         It is also a common comfort food enjoyed throughout the year.</div>
         
-        <div className='tips-text'>Tips</div>
-        <div className='tips'>• Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
-        <div className='tips'>• You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
-        <div className='tips'>• If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
-        <div className='tips'>• Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
+        <div className='sour-tips-text'>How it's Served</div>
+        <div className='sour-tips'>• Żurek is often served in a bowl or, for a more traditional presentation, in a hollowed-out loaf of bread.</div>
+        <div className='sour-tips'>• It's typically garnished with hard-boiled egg halves and fresh herbs.</div>
       </div>
     </>
   );

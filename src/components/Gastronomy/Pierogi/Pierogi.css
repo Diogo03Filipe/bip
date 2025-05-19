@@ -1,33 +1,54 @@
-.text {
-    margin-top: 0px;
+.pierogi-text {
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.text {
-    margin-top: 0px;
-    font-weight: bold;
-}
-
-.description-rect {
+.pierogi-description-rect {
     background-color: lightgrey;
     opacity: 85%;
 
     margin-top: 20px;
     margin-left: 12.5px;
-    height: 135px;
+    height: 170px;
     width: 385px;
     border-radius: 15px;
     padding-top: 6px;
 }
 
-.description {
+.pierogi-description {
     font-weight: bold;
     font-size: 1.2rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.ingredients-rect {
+.pierogi-ingredients-rect {
+    background-color: lightgrey;
+    opacity: 85%;
+
+    margin-top: 20px;
+    margin-left: 12.5px;
+    height: 420px;
+    width: 385px;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+
+.pierogi-ingredients-text {
+    margin-left: 145px;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+
+.pierogi-ingredients {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 6.5px;
+}
+
+.pierogi-instructions-rect {
     background-color: lightgrey;
     opacity: 85%;
 
@@ -39,52 +60,27 @@
     padding-top: 6px;
 }
 
-.ingredients-text {
+.pierogi-instructions-text {
     margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.ingredients {
+.pierogi-instructions {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;
     margin-top: 6.5px;
 }
 
-.instructions-rect {
-    background-color: lightgrey;
-    opacity: 85%;
-
-    margin-top: 20px;
-    margin-left: 12.5px;
-    height: 575px;
-    width: 385px;
-    border-radius: 15px;
-    padding-top: 6px;
-}
-
-.instructions-text {
-    margin-left: 145px;
-    font-weight: bold;
-    font-size: 1.20rem;
-}
-
-.instructions {
-    font-weight: bold;
-    font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
-}
-
-.tips-text {
+.pierogi-tips-text {
     margin-top: 15px;
-    margin-left: 175px;
+    margin-left: 65px;
     font-weight: bold;
     font-size: 1.20rem;
 }
 
-.tips {
+.pierogi-tips {
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15px;

@@ -19,7 +19,7 @@ const BakedBeans = () => {
 
   return (
     <>
-      <p className="text">Baked Beans</p>
+      <p className="baked-text">Baked Beans</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -29,34 +29,33 @@ const BakedBeans = () => {
           />
         </div>
       </div>
-      <div className='description-rect'>
-        <div className='description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
-        but adapted to be more like a cake. It's moist, delicious and surprisingly made with white beans!</div>
+      <div className='baked-description-rect'>
+        <div className='baked-description'>Baked Beans is a popular and hearty dish from Polish cuisine, known for its rich flavor and simple preparation!</div>
       </div>
-      <div className='ingredients-rect'>
-        <div className='ingredients-text'>Ingredients</div>
-        <div className='ingredients'>• 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
-        <div className='ingredients'>• 3 large eggs</div>
-        <div className='ingredients'>• 1/2 cup of granulated sugar</div>
-        <div className='ingredients'>• 1/4 cup unsalted butter, melted and cooled</div>
-        <div className='ingredients'>• 1 teaspoon vanilla extract</div>
-        <div className='ingredients'>• 1/4 tea spoon almond extract</div>
-        <div className='ingredients'>• 1/4 ground almonds</div>
-        <div className='ingredients'>• 1/4 teaspoon salt</div>
-        <div className='ingredients'>• Powdered sugar for dustig (Opticional)</div>
+      <div className='baked-ingredients-rect'>
+        <div className='baked-ingredients-text'>Ingredients</div>
+        <div className='baked-ingredients'>• Beans (most often white)</div>
+        <div className='baked-ingredients'>• Sausage (preferably smoked)</div>
+        <div className='baked-ingredients'>• Smoked bacon</div>
+        <div className='baked-ingredients'>• Onion</div>
+        <div className='baked-ingredients'>• Garlic</div>
+        <div className='baked-ingredients'>• Tomato puree or canned tomatoes</div>
+        <div className='baked-ingredients'>• Spices: Marjoram, bay leaf, allspice, pepper, salt</div>
       </div>
-      <div className='instructions-rect'>
-        <div className='instructions-text'>Instructions</div>
-        <div className='instructions'>1. Preheat the oven at 175ºC (350ºF). Grease and flour a 9-inch round cake pan.</div>
-        <div className='instructions'>2. In a food processor or blender, combine the beans, eggs, sugar, melted butter,
-        vanilla extract, almond extract, ground almonds, and salt. Process until completly smooth.</div>
-        <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
+      <div className='baked-instructions-rect'>
+        <div className='baked-instructions-text'>Instructions</div>
+        <div className='baked-instructions'>1. Soak the beans for several hours, then cook until soft.</div>
+        <div className='baked-instructions'>2. Sauté the chopped onion, bacon and sausage in a pan.</div>
+        <div className='baked-instructions'>3. Add the garlic and spices, then the tomato puree or canned tomatoes.</div>
+        <div className='baked-instructions'>4. Add the coocked beans to the sauce and simmer everything together until the flavors combine.</div>
+        <div className='baked-instructions'>5. Serve the dish hot, ofter with bread.</div>
+
         
-        <div className='tips-text'>Tips</div>
-        <div className='tips'>• Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
-        <div className='tips'>• You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
-        <div className='tips'>• If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
-        <div className='tips'>• Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
+        <div className='baked-tips-text'>Characteristics</div>
+        <div className='baked-tips'>• It is a one pot dish whose main ingredients are beans, sausage, bacon and tomato sauce.</div>
+        <div className='baked-tips'>• It's a very nutritious and warming dish, which is why it often appears on Polish tables during colder days.</div>
+        <div className='baked-tips'>• Despite its name, this dish has nothing to do with Brittany in France. 
+        The name probably comes from the term "à la bretonne", which in French cuisine means a dish with beans.</div>
       </div>
     </>
   );

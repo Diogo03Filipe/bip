@@ -1,0 +1,25 @@
+.traditions-rect {
+    background-color: lightgrey;
+    opacity: 85%;
+
+    margin-top: 20px;
+    margin-left: 12.5px;
+    height: 710px;
+    width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.traditions-title {
+    font-weight: bold;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.traditions-text {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: -15px;
+}
