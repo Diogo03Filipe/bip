@@ -37,8 +37,8 @@ const FolkCostumes = () => {
         <div className='traditions-text'>• Each region of Poland has its own unique costumes, differing in colors, patterns, and elements.</div>
         <div className='traditions-text'>• The most well-known include costumes from: Krákow, Łowicz, and the mountains (Góralski)</div>
         <div className='traditions-title'>Costume Elements:</div>
-        <div className='traditions-text'>• <b>Women: </b> skirts, blouses, corsets, shawls, necklaces.</div>
-        <div className='traditions-text'>• <b>Man: </b> trousers, shirts, vests, belts, hats.</div>
+        <div className='traditions-text'>•<b>Women: </b> skirts, blouses, corsets, shawls, necklaces.</div>
+        <div className='traditions-text'>•<b>Man: </b> trousers, shirts, vests, belts, hats.</div>
         <div className='traditions-title'>Ocasions:</div>
         <div className='traditions-text'>• Folk Costumes are worn during holidays, festivals, and regional celebrations.</div>
         <div className='traditions-text'>• They are also used by folk groups.</div>
