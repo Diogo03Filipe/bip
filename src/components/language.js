@@ -10,6 +10,7 @@ export const LanguageProvider = ({ children }) => {
   const translations = {
     en: {
       welcome: ukBanner,
+      home: "Home",
       locations: "Locations",
       gastronomy: "Gastronomy",
       traditions: "Traditions",
@@ -40,11 +41,14 @@ export const LanguageProvider = ({ children }) => {
       StIdziZakliczyn: {
         title: "St. Idzi Zakliczyn",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...\nLorem ipsum dolor sit amet, consectetur adipiscing elit..."
-      }
+      },
+      discoverTitle: "Discover More About Our Region",
+      discoverText: "Explore local attractions, food, culture, and community living in our town.",
     },
 
     pl: {
       welcome: plBanner,
+      home: "Strona główna",
       locations: "Lokalizacje",
       gastronomy: "Gastronomia",
       traditions: "Tradycje",
@@ -75,8 +79,9 @@ export const LanguageProvider = ({ children }) => {
       StIdziZakliczyn: {
         title: "St. Idzi Zakliczyn",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...\nLorem ipsum dolor sit amet, consectetur adipiscing elit..."
-      }
-
+      },
+      discoverTitle: "Odkryj więcej o naszym regionie",
+      discoverText: "Poznaj lokalne atrakcje, jedzenie, kulturę i życie społeczności w naszym mieście.",
     }
   }
 

@@ -1,0 +1,19 @@
+
+.bottom-header,
+.footer {
+  margin-top: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: #e5c4b3;
+  border-top: 2px solid #d3a690;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.footer h2,
+.bottom-header h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}

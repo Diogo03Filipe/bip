@@ -26,6 +26,8 @@ const Navbar = () => {
   // Function to return sidebar background color based on current route
   const getSidebarBgColor = () => {
     switch (location.pathname) {
+      case '/':
+        return '#fcece3';
       case '/Locations/cityCenter':
       case '/Locations/melsztyn':
       case '/Locations/EuroveloMotesk':
@@ -42,6 +44,7 @@ const Navbar = () => {
       case '/Traditions/FolkCostumes':
         return '#fcedfc';
       case '/ElderlyHomes/RetirementHomes':
+      case '/RetirementHomes':
         return '#efffcc';
       default:
         return '#e8e8e8';
@@ -81,6 +84,13 @@ const Navbar = () => {
         style={{ backgroundColor: getSidebarBgColor() }}
       >
         <button className="close-btn" onClick={toggleSidebar}>×</button>
+
+
+        <div className="menu-section">
+          <Link to="/" className="section-header" onClick={toggleSidebar}>
+            {translations[language].home}
+          </Link>
+        </div>
 
         {/* LOCATIONS */}
         <div className="menu-section">
@@ -122,9 +132,10 @@ const Navbar = () => {
           </div>
           {expandedSection === 'traditions' && (
             <div className="section-items">
-              <Link to="Traditions/FolkCostumes" onClick={toggleSidebar}>
-                {language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}
-              </Link>
+              <Link to="Traditions/FolkCostumes" onClick={toggleSidebar}>{language === 'en' ? 'Folk Costumes' : 'Stroje ludowe'}</Link>
+              <Link to="Traditions/FatThursday" onClick={toggleSidebar}>{language === 'en' ? 'Fat Thursday' : 'Tłusty Czwartek'}</Link>
+              <Link to="Traditions/WetMonday" onClick={toggleSidebar}>{language === 'en' ? 'Wet Monday' : 'Śmigus Dyngus'}</Link>
+              <Link to="Traditions/SecondWedding" onClick={toggleSidebar}>{language === 'en' ? 'Second Wedding' : 'Poprawiny'}</Link>
             </div>
           )}
         </div>
@@ -143,7 +154,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-    </div>
+    </div>  
   );
 };
 

@@ -5,7 +5,8 @@
 }
 
 .borscht-description-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;
@@ -23,7 +24,8 @@
 }
 
 .borscht-ingredients-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;
@@ -48,7 +50,8 @@
 }
 
 .borscht-instructions-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;

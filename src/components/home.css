@@ -1,12 +1,35 @@
 .img {
   object-fit: cover;
-  /* Maintain aspect ratio */
   display: block;
-  /* Ensure images are block elements */
   width: 600px;
-  /* Set your desired width */
   height: 200px;
-  /* Height adjusts proportionally */
   max-width: 100%;
-  /* Prevents overflow on small screens */
+}
+
+.locations-home {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.gastronomy-home {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.traditions-home {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.retirement-home {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }

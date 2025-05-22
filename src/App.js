@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/home';
+import Locations from './components/Locations/Locations';
+import Gastronomy from './components/Gastronomy/Gastronomy';
+import Traditions from './components/Traditions/Traditions';
 import CityCenter from './components/Locations/zakliczyn/cityCenter';
 import Melsztyn from './components/Locations/melsztyn/melsztyn';
 import MusicCenter from './components/Locations/musicCenter/MusicCenter';
@@ -14,7 +17,13 @@ import BakedBeans from './components/Gastronomy/BakedBeans/BakedBeans';
 import SourRyeSoup from './components/Gastronomy/SourRyeSoup/SourRyeSoup';
 import Pierogi from './components/Gastronomy/Pierogi/Pierogi';
 import FolkCostumes from './components/Traditions/Folk Costumes/FolkCostumes';
+import FatThursday from './components/Traditions/FatThursday/FatThursday';
+import WetMonday from './components/Traditions/WetMonday/WetMonday';
+import SecondWedding from './components/Traditions/SecondWedding/SecondWedding';
 import RetirementHomes from './components/Traditions/Retirement Homes/RetirementHomes';
+
+import './App.css'
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -22,6 +31,10 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Locations" element={<Locations />} />
+        <Route path="/Gastronomy" element={<Gastronomy />} />
+        <Route path="/Traditions" element={<Traditions />} />
+        <Route path="/RetirementHomes" element={<RetirementHomes />} />
         <Route path="Locations/cityCenter" element={<CityCenter />} />
         <Route path="Locations/melsztyn" element={<Melsztyn />} />
         <Route path="Locations/MusicCenter" element={<MusicCenter />} />
@@ -34,9 +47,14 @@ const App = () => {
         <Route path="Gastronomy/SourRyeSoup" element={<SourRyeSoup />} />
         <Route path="Gastronomy/Pierogi" element={<Pierogi />} />
         <Route path="Traditions/FolkCostumes" element={<FolkCostumes />} />
+        <Route path="Traditions/FatThursday" element={<FatThursday />} />
+        <Route path="Traditions/WetMonday" element={<WetMonday />} />
+        <Route path="Traditions/SecondWedding" element={<SecondWedding />} />
         <Route path="ElderlyHomes/RetirementHomes" element={<RetirementHomes />} />
       </Routes>
+    <Footer/>
     </Router>
+
   );
 };
 

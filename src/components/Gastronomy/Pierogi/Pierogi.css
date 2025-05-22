@@ -5,7 +5,8 @@
 }
 
 .pierogi-description-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;
@@ -24,7 +25,8 @@
 }
 
 .pierogi-ingredients-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;
@@ -49,7 +51,8 @@
 }
 
 .pierogi-instructions-rect {
-    background-color: lightgrey;
+    background-color: #e5c4b3;
+    border: 2px solid #d3a690;
     opacity: 85%;
 
     margin-top: 20px;
