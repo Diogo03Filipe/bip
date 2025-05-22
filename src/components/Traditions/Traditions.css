@@ -1,0 +1,21 @@
+.img {
+  object-fit: cover;
+  display: block;
+  width: 600px;
+  height: 200px;
+  max-width: 100%;
+}
+
+.traditions-names1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.traditions-names {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

@@ -24,10 +24,12 @@ import RetirementHomes from './components/Traditions/Retirement Homes/Retirement
 
 import './App.css'
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <Router basename="/bip">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

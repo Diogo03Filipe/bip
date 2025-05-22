@@ -73,6 +73,7 @@
   flex-direction: column;
   gap: 6px;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 .section-items a {

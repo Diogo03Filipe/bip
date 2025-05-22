@@ -34,6 +34,7 @@ const Navbar = () => {
       case '/Locations/musicCenter':
       case '/Locations/StIdzi':
         return '#acd8fc';
+      case '/Gastronomy': 
       case '/Gastronomy/CakeWithBeans':
       case '/Gastronomy/BakedBeans':
       case '/Gastronomy/Borscht':
@@ -41,7 +42,11 @@ const Navbar = () => {
       case '/Gastronomy/Pierogi':
       case '/Gastronomy/SourRyeSoup':
         return '#fcece3';
+      case '/Traditions':
       case '/Traditions/FolkCostumes':
+      case '/Traditions/FatThursday':
+      case '/Traditions/WetMonday':
+      case '/Traditions/SecondWedding':
         return '#fcedfc';
       case '/ElderlyHomes/RetirementHomes':
       case '/RetirementHomes':
@@ -115,7 +120,7 @@ const Navbar = () => {
           </div>
           {expandedSection === 'gastronomy' && (
             <div className="section-items">
-              <Link to="Gastronomy/CakeWithBeans" onClick={toggleSidebar}>{language === 'en' ? 'Cake with Beans' : 'Ciasto z fasoli'}</Link>
+              <Link to="Gastronomy/CakeWithBeans" onClick={toggleSidebar}>{language === 'en' ? 'Polish Bean Cake' : 'Ciasto z fasoli'}</Link>
               <Link to="Gastronomy/BeanPastries" onClick={toggleSidebar}>{language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}</Link>
               <Link to="Gastronomy/Borscht" onClick={toggleSidebar}>{language === 'en' ? 'Borscht' : 'Barszcz'}</Link>
               <Link to="Gastronomy/BakedBeans" onClick={toggleSidebar}>{language === 'en' ? 'Baked Beans' : 'Fasolka po Bretońsku'}</Link>
@@ -154,7 +159,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-    </div>  
+    </div>
   );
 };
 

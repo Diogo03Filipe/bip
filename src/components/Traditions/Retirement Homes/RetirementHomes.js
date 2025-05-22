@@ -33,7 +33,7 @@ const RetirementHomes = () => {
         <div className='homes-title'>Retirement Homes in Poland</div>
         <div className='homes-text'>In Poland, retirement homes, also known as care homes or senior homes, play a crucial role in caring for the elderly.
           Here are some key aspects regarding these facilities:</div>
-        <div className='homes-title'>Plubic Care Homes:</div>
+        <div className='homes-title'>Public Care Homes:</div>
         <div className='homes-text'>• Run by local governments.</div>
         <div className='homes-text'>• The costs of stay are partially funded by the state.</div>
         <div className='homes-text'>• Often have long wait lists.</div>
