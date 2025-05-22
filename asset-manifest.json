@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/bip/static/css/main.4edd1407.css",
-    "main.js": "/bip/static/js/main.741ca2b1.js",
+    "main.css": "/bip/static/css/main.56e70a0a.css",
+    "main.js": "/bip/static/js/main.42055ece.js",
     "static/js/453.4fdc8726.chunk.js": "/bip/static/js/453.4fdc8726.chunk.js",
     "static/media/zakliczyn.png": "/bip/static/media/zakliczyn.97c0638240e0aeec0c68.png",
+    "static/media/FolkCostumes.png": "/bip/static/media/FolkCostumes.5adccde5ffa0fec7161f.png",
+    "static/media/FatThursday.png": "/bip/static/media/FatThursday.b52abba72e5a362a8552.png",
+    "static/media/WetMonday.png": "/bip/static/media/WetMonday.a58623d0fe4a8cabf8a3.png",
     "static/media/musicCenter.png": "/bip/static/media/musicCenter.bd884b1c5ce77f2b4ee9.png",
     "static/media/EuroveloMostek.png": "/bip/static/media/EuroveloMostek.6071925c3d58121b59b6.png",
     "static/media/Borscht.png": "/bip/static/media/Borscht.e7198a28f86e42e2668d.png",
     "static/media/melsztyn.png": "/bip/static/media/melsztyn.a41ac1947fb84a9458b8.png",
     "static/media/CakeWithBeans.png": "/bip/static/media/CakeWithBeans.fcb5981b558e0e7aca45.png",
     "static/media/BeanPastries.png": "/bip/static/media/BeanPastries.022922ae899fda669501.png",
+    "static/media/SecondWedding.png": "/bip/static/media/SecondWedding.6d7761aa97761621f098.png",
     "static/media/StIdzi.png": "/bip/static/media/StIdzi.76a865526561fe08da0d.png",
-    "static/media/FolkCostumes.png": "/bip/static/media/FolkCostumes.41f65f393036c87e85c9.png",
     "static/media/SourRyeSoup.png": "/bip/static/media/SourRyeSoup.fdfc98908a575d8afdbd.png",
     "static/media/RetirementHomes.png": "/bip/static/media/RetirementHomes.9e44b25887e598591fa4.png",
     "static/media/Pierogi.png": "/bip/static/media/Pierogi.250f35c2c738303e84d0.png",
     "static/media/BakedBeans.png": "/bip/static/media/BakedBeans.1c8c09ceeb3fba8f0ffb.png",
     "static/media/uk_banner.png": "/bip/static/media/uk_banner.c3b69178098f3b01ec99.png",
     "index.html": "/bip/index.html",
-    "main.4edd1407.css.map": "/bip/static/css/main.4edd1407.css.map",
-    "main.741ca2b1.js.map": "/bip/static/js/main.741ca2b1.js.map",
+    "main.56e70a0a.css.map": "/bip/static/css/main.56e70a0a.css.map",
+    "main.42055ece.js.map": "/bip/static/js/main.42055ece.js.map",
     "453.4fdc8726.chunk.js.map": "/bip/static/js/453.4fdc8726.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4edd1407.css",
-    "static/js/main.741ca2b1.js"
+    "static/css/main.56e70a0a.css",
+    "static/js/main.42055ece.js"
   ]
 }
