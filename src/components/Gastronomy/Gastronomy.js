@@ -31,42 +31,42 @@ const Gastronomy = () => {
 
     return (
         <>
-            <div className='gastronomy-names1'>Polish Bean Cake</div>
+            <div className='gastronomy-names1'>{language === 'en' ? 'Polish Bean Cake' : 'Polskie Ciasto Fasolowe'}</div>
             <Link to="CakeWithBeans">
                 <div className='costumes-traditions'>
                     <img src={CakeWithBeans} alt="Cake With Beans" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='gastronomy-names'>Bean Pastries</div>
+            <div className='gastronomy-names'>{language === 'en' ? 'Bean Pastries' : 'Ciastka fasolowe'}</div>
             <Link to="BeanPastries">
                 <div className='costumes-traditions'>
                     <img src={BeanPastries} alt="Bean Pastries" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='gastronomy-names'>Borscht</div>
+            <div className='gastronomy-names'>{language === 'en' ? 'Borscht' : 'Barszcz'}</div>
             <Link to="Borscht">
                 <div className='costumes-traditions'>
                     <img src={Borscht} alt="Borscht" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='gastronomy-names'>Baked Beans</div>
+            <div className='gastronomy-names'>{language === 'en' ? 'Baked Beans' : 'Pieczona fasola'}</div>
             <Link to="BakedBeans">
                 <div className='costumes-traditions'>
                     <img src={BakedBeans} alt="Bake Beans" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='gastronomy-names'>Sour Rye Soup</div>
+            <div className='gastronomy-names'>{language === 'en' ? 'Sour Rye Soup' : 'Zupa żytnia na zakwasie'}</div>
             <Link to="SourRyeSoup">
                 <div className='costumes-traditions'>
                     <img src={SourRyeSoup} alt="Sour Rye Soup" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='gastronomy-names'>Pierogi</div>
+            <div className='gastronomy-names'>{language === 'en' ? 'Pierogi' : 'Pierogi'}</div>
             <Link to="Pierogi">
                 <div className='costumes-traditions'>
                     <img src={Pierogi} alt="Pierogi" className="full-width-img" />

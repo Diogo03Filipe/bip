@@ -49,7 +49,7 @@ const CityCenter = () => {
 
   return (
     <>
-      <p className="text"> Zakliczyn </p>
+      <p className="text">{translations[language].zakliczyn.title}</p>
       <div className="city-center-container">
 
         {/* Full-width image section */}

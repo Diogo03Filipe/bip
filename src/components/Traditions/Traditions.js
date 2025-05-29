@@ -29,28 +29,28 @@ const Traditions = () => {
 
     return (
         <>
-            <div className='traditions-names1'>Folk Costumes</div>
+            <div className='traditions-names1'>{language === 'en' ? 'Folk Costumes' : 'Stroje Ludowe'}</div>
             <Link to="FolkCostumes">
                 <div className='costumes-traditions'>
                     <img src={FolkCostumes} alt="Folk Costumes" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='traditions-names'>Fat Thursday</div>
+            <div className='traditions-names'>{language === 'en' ? 'Fat Thursday' : 'Tłusty Czwartek'}</div>
             <Link to="FatThursday">
                 <div className='costumes-traditions'>
                     <img src={FatThursday} alt="Folk Costumes" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='traditions-names'>Wet Monday</div>
+            <div className='traditions-names'>{language === 'en' ? 'Wet Monday' : 'Mokry Poniedziałek'}</div>
             <Link to="WetMonday">
                 <div className='costumes-traditions'>
                     <img src={WetMonday} alt="Folk Costumes" className="full-width-img" />
                 </div>
             </Link>
 
-            <div className='traditions-names'>Second Wedding</div>
+            <div className='traditions-names'>{language === 'en' ? 'Second Wedding' : 'Drugie Wesele'}</div>
             <Link to="SecondWedding">
                 <div className='costumes-traditions'>
                     <img src={SecondWedding} alt="Folk Costumes" className="full-width-img" />
