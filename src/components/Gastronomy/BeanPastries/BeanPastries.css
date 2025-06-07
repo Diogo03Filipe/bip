@@ -1,7 +1,6 @@
 .text {
     font-weight: bold;
     font-size: 1.50rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -22,7 +21,7 @@
 .description {
     font-weight: bold;
     font-size: 1.20rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
@@ -43,14 +42,14 @@
 .ingredients-text {
     font-weight: bold;
     font-size: 1.20rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
 .ingredients {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
@@ -71,27 +70,27 @@
 .instructions-text {
     font-weight: bold;
     font-size: 1.20rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
 .instructions {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
 .tips-text {
     font-weight: bold;
     font-size: 1.20rem;
-    text-align: center;
+    
     padding: 10px;
 }
 
 .tips {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
+    
     padding: 10px;
 }
