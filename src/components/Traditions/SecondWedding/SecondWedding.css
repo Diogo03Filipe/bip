@@ -1,0 +1,25 @@
+.traditions-rect {
+    background-color: rgba(208, 232, 163, 0.65);
+    
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px); /* 100% width minus left margin (12.5px x 2) */
+    max-width: 385px; /* Don't go wider than original intent */
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box; /* Ensures padding/borders don't cause overflow */
+}
+
+.traditions-title {
+    font-weight: bold;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.traditions-text {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: -15px;
+}
