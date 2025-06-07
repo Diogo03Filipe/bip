@@ -19,7 +19,7 @@ const WetMonday = () => {
 
   return (
     <>
-      <p className="text">Wet Monday</p>
+      <p className="wet-title1">Wet Monday</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -29,22 +29,22 @@ const WetMonday = () => {
           />
         </div>
       </div>
-      <div className='traditions-rect'>
-        <div className='traditions-title'>Polish Folk Costumes</div>
-        <div className='traditions-text'>Polish folk costumes are rich and diverse, reflecting the traditions of individual regions.
+      <div className='wet-rect'>
+        <div className='wet-title'>Polish Folk Costumes</div>
+        <div className='wet-text'>Polish folk costumes are rich and diverse, reflecting the wet of individual regions.
         Here is some general information:</div>
-        <div className='traditions-title'>Diversity:</div>
-        <div className='traditions-text'>• Each region of Poland has its own unique costumes, differing in colors, patterns, and elements.</div>
-        <div className='traditions-text'>• The most well-known include costumes from: Krákow, Łowicz, and the mountains (Góralski)</div>
-        <div className='traditions-title'>Costume Elements:</div>
-        <div className='traditions-text'>•<b>Women: </b> skirts, blouses, corsets, shawls, necklaces.</div>
-        <div className='traditions-text'>•<b>Man: </b> trousers, shirts, vests, belts, hats.</div>
-        <div className='traditions-title'>Ocasions:</div>
-        <div className='traditions-text'>• Folk Costumes are worn during holidays, festivals, and regional celebrations.</div>
-        <div className='traditions-text'>• They are also used by folk groups.</div>
-        <div className='traditions-title'>Symbolism:</div>
-        <div className='traditions-text'>• Folk Costumes are an important element of Polish culture and symbolism.</div>
-        <div className='traditions-text'>• They reflect local history and customs.</div>
+        <div className='wet-title'>Diversity:</div>
+        <div className='wet-text'>• Each region of Poland has its own unique costumes, differing in colors, patterns, and elements.</div>
+        <div className='wet-text'>• The most well-known include costumes from: Krákow, Łowicz, and the mountains (Góralski)</div>
+        <div className='wet-title'>Costume Elements:</div>
+        <div className='wet-text'>•<b>Women: </b> skirts, blouses, corsets, shawls, necklaces.</div>
+        <div className='wet-text'>•<b>Man: </b> trousers, shirts, vests, belts, hats.</div>
+        <div className='wet-title'>Ocasions:</div>
+        <div className='wet-text'>• Folk Costumes are worn during holidays, festivals, and regional celebrations.</div>
+        <div className='wet-text'>• They are also used by folk groups.</div>
+        <div className='wet-title'>Symbolism:</div>
+        <div className='wet-text'>• Folk Costumes are an important element of Polish culture and symbolism.</div>
+        <div className='wet-text'>• They reflect local history and customs.</div>
       </div>
     </>
   );

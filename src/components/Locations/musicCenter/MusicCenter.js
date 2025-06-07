@@ -48,7 +48,7 @@ const MusicCenter = () => {
 
   return (
     <>
-      <p className="text"> Music Center </p>
+      <p className="music-text"> Music Center </p>
       <div className="city-center-container">
 
         {/* Full-width image section */}
@@ -60,7 +60,7 @@ const MusicCenter = () => {
           />
         </div>
 
-        <div className='description'>
+        <div className='music-description'>
           {translations[language].MusicCenter.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}

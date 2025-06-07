@@ -20,8 +20,8 @@ export const LanguageProvider = ({ children }) => {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
         musicCenter: "Music Center",
-        eurovelo: "Eurovelo Mostek",
-        stIdzi: "St. Idzi Zakliczyn",
+        eurovelo: "Eurovelo Motesk",
+        stIdzi: "St. Idzi",
       },
       zakliczyn: {
         title: "Zakliczyn",
@@ -36,11 +36,11 @@ export const LanguageProvider = ({ children }) => {
         description: ""
       },
       EuroveloMostek: {
-        title: "Eurovelo Mostek",
+        title: "Eurovelo Motesk",
         description: ""
       },
       StIdziZakliczyn: {
-        title: "St. Idzi Zakliczyn",
+        title: "St. Idzi",
         description: "",
       },
       RetirementHomes: {
@@ -72,8 +72,8 @@ export const LanguageProvider = ({ children }) => {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
         musicCenter: "Centrum Muzyczne",
-        eurovelo: "Eurovelo Mostek",
-        stIdzi: "Św. Idzi Zakliczyn",
+        eurovelo: "Eurovelo Motesk",
+        stIdzi: "Św. Idzi",
       },
       zakliczyn: {
         title: "Zakliczyn",
@@ -88,11 +88,11 @@ export const LanguageProvider = ({ children }) => {
         description: ""
       },
       EuroveloMostek: {
-        title: "Eurovelo Mostek",
+        title: "Eurovelo Motesk",
         description: ""
       },
       StIdziZakliczyn: {
-        title: "St. Idzi Zakliczyn",
+        title: "Św. Idzi",
         description: ""
       },
       RetirementHomes: {

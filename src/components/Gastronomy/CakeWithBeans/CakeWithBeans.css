@@ -1,6 +1,7 @@
 .cake-text {
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .cake-description-rect {
@@ -19,8 +20,7 @@
 
 .cake-description {
     font-weight: bold;
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.2rem;
     padding: 10px;
 }
 

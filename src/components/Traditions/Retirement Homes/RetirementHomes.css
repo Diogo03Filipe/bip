@@ -1,6 +1,6 @@
 .homes-rect {
-    background-color: rgba(208, 232, 163, 0.65);
-    
+    background-color: #d8eca4;
+    border: 4px solid #bed78a;
     margin-top: 20px;
     margin-left: 12.5px;
     width: calc(100% - 25px); /* 100% width minus left margin (12.5px x 2) */
@@ -8,6 +8,12 @@
     border-radius: 15px;
     text-align: justify;
     box-sizing: border-box; /* Ensures padding/borders don't cause overflow */
+}
+
+.homes-title1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .homes-title {

@@ -19,7 +19,7 @@ const Pierogi = () => {
 
   return (
     <>
-      <p className="text">Pierogi</p>
+      <p className="pierogi-text">Pierogi</p>
       <div className="city-center-container">
         <div className="image-container">
           <img

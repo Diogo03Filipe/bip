@@ -49,7 +49,7 @@ const { language, translations } = useLanguage();
 
   return (
     <>
-      <p className="text"> Melsztyn </p>
+      <p className="melsztyn-text"> Melsztyn </p>
       <div className="city-center-container">
 
         {/* Full-width image section */}
@@ -61,7 +61,7 @@ const { language, translations } = useLanguage();
           />
         </div>
 
-        <div className='description'>
+        <div className='melsztyn-description'>
           {translations[language].melsztyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}

@@ -26,13 +26,13 @@
     height: 400px;
 }
 
-.text {
+.melsztyn-text {
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 80px;
+    font-weight: bold;
 }
 
-.description {
+.melsztyn-description {
     margin-left: 25px;
     margin-top: 15px;
 }

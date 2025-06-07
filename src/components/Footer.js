@@ -11,6 +11,7 @@ const Footer = () => {
     switch (location.pathname) {
       case '/':
         return { backgroundColor: '#e5c4b3', borderTop: '4px solid #d3a690' };
+      case '/Locations':
       case '/Locations/cityCenter':
       case '/Locations/melsztyn':
       case '/Locations/EuroveloMotesk':

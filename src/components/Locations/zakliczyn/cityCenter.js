@@ -49,7 +49,7 @@ const CityCenter = () => {
 
   return (
     <>
-      <p className="text">{translations[language].zakliczyn.title}</p>
+      <p className="zakliczyn-text">{translations[language].zakliczyn.title}</p>
       <div className="city-center-container">
 
         {/* Full-width image section */}
@@ -61,7 +61,7 @@ const CityCenter = () => {
           />
         </div>
 
-        <div className='description'>
+        <div className='zaklinczyn-description'>
           {translations[language].zakliczyn.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}

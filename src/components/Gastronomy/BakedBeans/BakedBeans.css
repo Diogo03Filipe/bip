@@ -47,7 +47,6 @@
 .baked-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -75,7 +74,6 @@
 .baked-instructions {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -89,6 +87,5 @@
 .baked-tips {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }

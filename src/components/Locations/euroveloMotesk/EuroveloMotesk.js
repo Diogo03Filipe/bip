@@ -48,7 +48,7 @@ const EuroveloMotesk = () => {
 
   return (
     <>
-      <p className="text">Eurovelo Mostek</p>
+      <p className="eurovelo-text">Eurovelo Mostek</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -57,7 +57,7 @@ const EuroveloMotesk = () => {
             className="full-width-img"
           />
         </div>
-        <div className="description">
+        <div className="eurovelo-description">
           {translations[language].EuroveloMostek.description.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}

@@ -19,7 +19,7 @@ const RetirementHomes = () => {
 
   return (
     <>
-      <p className="text">{translations[language].RetirementHomes.title}</p>
+      <p className="homes-title1">{translations[language].RetirementHomes.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img

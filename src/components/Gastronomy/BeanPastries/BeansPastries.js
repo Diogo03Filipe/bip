@@ -19,7 +19,7 @@ const BeanPastries = () => {
 
   return (
     <>
-      <p className="text">Bean Pastries</p>
+      <p className="bean-text">Bean Pastries</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,7 +30,7 @@ const BeanPastries = () => {
         </div>
       </div>
       <div className='description-rect'>
-        <div className='description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
+        <div className='bean-description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
         but adapted to be more like a cake. It's moist, delicious and surprisingly made with white beans!</div>
       </div>
       <div className='ingredients-rect'>

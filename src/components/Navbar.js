@@ -28,6 +28,7 @@ const Navbar = () => {
     switch (location.pathname) {
       case '/':
         return '#fcece3';
+      case '/Locations':
       case '/Locations/cityCenter':
       case '/Locations/melsztyn':
       case '/Locations/EuroveloMotesk':

@@ -1,6 +1,6 @@
-.traditions-rect {
-    background-color: rgba(208, 232, 163, 0.65);
-    
+.folk-rect {
+    background-color: #eacfe9;
+    border: 4px solid #d2b3cf;
     margin-top: 20px;
     margin-left: 12.5px;
     width: calc(100% - 25px); /* 100% width minus left margin (12.5px x 2) */
@@ -10,14 +10,20 @@
     box-sizing: border-box; /* Ensures padding/borders don't cause overflow */
 }
 
-.traditions-title {
+.folk-title1 {
+    font-weight: bold;
+    font-size: 1.50rem;
+    text-align: center;
+}
+
+.folk-title {
     font-weight: bold;
     font-size: 1.20rem;
     text-align: center;
     padding: 10px;
 }
 
-.traditions-text {
+.folk-text {
     font-weight: bold;
     font-size: 1rem;
     padding: 10px;

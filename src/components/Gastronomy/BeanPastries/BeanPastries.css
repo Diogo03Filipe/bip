@@ -1,6 +1,7 @@
-.text {
+.bean-text {
     font-weight: bold;
     font-size: 1.50rem;
+    text-align: center;
 }
 
 .description-rect {
@@ -17,9 +18,10 @@
     padding-top: 6px;
 }
 
-.description {
+.bean-description {
     font-weight: bold;
     font-size: 1.20rem;
+    padding: 10px;
 }
 
 .ingredients-rect {
@@ -39,14 +41,13 @@
 .ingredients-text {
     font-weight: bold;
     font-size: 1.20rem;
-    
     padding: 10px;
+    text-align: center;
 }
 
 .ingredients {
     font-weight: bold;
     font-size: 1rem;
-    
     padding: 10px;
 }
 
@@ -67,27 +68,25 @@
 .instructions-text {
     font-weight: bold;
     font-size: 1.20rem;
-    
+    text-align: center;
     padding: 10px;
 }
 
 .instructions {
     font-weight: bold;
     font-size: 1rem;
-    
     padding: 10px;
 }
 
 .tips-text {
     font-weight: bold;
     font-size: 1.20rem;
-    
+    text-align: center;
     padding: 10px;
 }
 
 .tips {
     font-weight: bold;
     font-size: 1rem;
-    
     padding: 10px;
 }

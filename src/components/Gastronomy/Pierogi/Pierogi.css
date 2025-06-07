@@ -21,7 +21,6 @@
 .pierogi-description {
     font-weight: bold;
     font-size: 1.20rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -49,7 +48,6 @@
 .pierogi-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -77,7 +75,6 @@
 .pierogi-instructions {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -91,6 +88,5 @@
 .pierogi-tips {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }

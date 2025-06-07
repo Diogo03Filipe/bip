@@ -21,6 +21,7 @@
 .borscht-description {
     font-weight: bold;
     font-size: 1.2rem;
+    text-align: center;
     padding: 10px;
 }
 
@@ -48,7 +49,6 @@
 .borscht-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -76,7 +76,6 @@
 .borscht-instructions {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }
 
@@ -90,6 +89,5 @@
 .borscht-tips {
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
     padding: 10px;
 }

@@ -21,3 +21,14 @@
     width: 100px;
     height: 100px;
 }
+
+.eurovelo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.eurovelo-description {
+    margin-left: 25px;
+    margin-top: 15px;
+}
