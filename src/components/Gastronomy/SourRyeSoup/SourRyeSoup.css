@@ -20,7 +20,8 @@
 
 .sour-description {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.20rem;
+    text-align: center;
     padding: 10px;
 }
 
@@ -39,16 +40,17 @@
 }
 
 .sour-ingredients-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .sour-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .sour-instructions-rect {
@@ -66,28 +68,29 @@
 }
 
 .sour-instructions-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .sour-instructions {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .sour-tips-text {
-    margin-top: 15px;
-    margin-left: 130px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .sour-tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }

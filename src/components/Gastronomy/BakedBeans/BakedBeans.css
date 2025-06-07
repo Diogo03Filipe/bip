@@ -4,7 +4,7 @@
     font-weight: bold;
 }
 
-.baked-description-rect {    
+.baked-description-rect {
     margin-top: 20px;
     margin-left: 12.5px;
     width: calc(100% - 25px);
@@ -38,16 +38,17 @@
 }
 
 .baked-ingredients-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .baked-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .baked-instructions-rect {
@@ -65,28 +66,29 @@
 }
 
 .baked-instructions-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .baked-instructions {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .baked-tips-text {
-    margin-top: 15px;
-    margin-left: 135px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .baked-tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }

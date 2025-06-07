@@ -1,11 +1,8 @@
 .text {
-    margin-top: 0px;
     font-weight: bold;
-}
-
-.text {
-    margin-top: 0px;
-    font-weight: bold;
+    font-size: 1.50rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .description-rect {
@@ -24,9 +21,9 @@
 
 .description {
     font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .ingredients-rect {
@@ -44,16 +41,17 @@
 }
 
 .ingredients-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .ingredients {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .instructions-rect {
@@ -71,28 +69,29 @@
 }
 
 .instructions-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .instructions {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .tips-text {
-    margin-top: 15px;
-    margin-left: 175px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }

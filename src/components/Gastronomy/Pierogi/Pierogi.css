@@ -20,9 +20,9 @@
 
 .pierogi-description {
     font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-ingredients-rect {
@@ -40,16 +40,17 @@
 }
 
 .pierogi-ingredients-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-instructions-rect {
@@ -67,28 +68,29 @@
 }
 
 .pierogi-instructions-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-instructions {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-tips-text {
-    margin-top: 15px;
-    margin-left: 65px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .pierogi-tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }

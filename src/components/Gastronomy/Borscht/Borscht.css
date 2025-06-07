@@ -39,16 +39,17 @@
 }
 
 .borscht-ingredients-text {
-    margin-left: 90px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .borscht-ingredients {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .borscht-instructions-rect {
@@ -66,28 +67,29 @@
 }
 
 .borscht-instructions-text {
-    margin-left: 145px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .borscht-instructions {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .borscht-tips-text {
-    margin-top: 15px;
-    margin-left: 135px;
     font-weight: bold;
     font-size: 1.20rem;
+    text-align: center;
+    padding: 10px;
 }
 
 .borscht-tips {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 12.5px;
-    margin-top: 6.5px;
+    text-align: center;
+    padding: 10px;
 }
