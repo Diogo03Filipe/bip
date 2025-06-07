@@ -1,7 +1,6 @@
 .text {
     font-weight: bold;
     font-size: 1.50rem;
-    padding: 10px;
 }
 
 .description-rect {
@@ -21,8 +20,6 @@
 .description {
     font-weight: bold;
     font-size: 1.20rem;
-    
-    padding: 10px;
 }
 
 .ingredients-rect {
