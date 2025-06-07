@@ -3,9 +3,11 @@
     
     margin-top: 20px;
     margin-left: 12.5px;
-    width: 385px;
+    width: calc(100% - 25px); /* 100% width minus left margin (12.5px x 2) */
+    max-width: 385px; /* Don't go wider than original intent */
     border-radius: 15px;
     text-align: justify;
+    box-sizing: border-box; /* Ensures padding/borders don't cause overflow */
 }
 
 .homes-title {
