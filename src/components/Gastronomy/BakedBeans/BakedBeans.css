@@ -4,7 +4,14 @@
     font-weight: bold;
 }
 
-.baked-description-rect {
+.baked-description-rect {    
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px);
+    max-width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box;
     background-color: #e5c4b3;
     border: 2px solid #d3a690;
     opacity: 85%;
