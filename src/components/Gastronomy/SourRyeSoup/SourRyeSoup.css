@@ -5,16 +5,17 @@
 }
 
 .sour-description-rect {
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px);
+    max-width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box;
     background-color: #e5c4b3;
     border: 2px solid #d3a690;
     opacity: 85%;
-
-    margin-top: 20px;
-    margin-left: 12.5px;
-    height: 110px;
-    width: 385px;
-    border-radius: 15px;
-    text-align: justify;
+    padding-top: 6px;
 }
 
 .sour-description {
@@ -24,15 +25,16 @@
 }
 
 .sour-ingredients-rect {
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px);
+    max-width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box;
     background-color: #e5c4b3;
     border: 2px solid #d3a690;
     opacity: 85%;
-
-    margin-top: 20px;
-    margin-left: 12.5px;
-    height: 230px;
-    width: 385px;
-    border-radius: 15px;
     padding-top: 6px;
 }
 
@@ -50,15 +52,16 @@
 }
 
 .sour-instructions-rect {
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px);
+    max-width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box;
     background-color: #e5c4b3;
     border: 2px solid #d3a690;
     opacity: 85%;
-
-    margin-top: 20px;
-    margin-left: 12.5px;
-    height: 535px;
-    width: 385px;
-    border-radius: 15px;
     padding-top: 6px;
 }
 
