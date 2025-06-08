@@ -5,7 +5,7 @@ import { useLanguage } from '../../language'; // Adjust import path as needed
 
 const Melsztyn = () => {
 
-const { language, translations } = useLanguage();
+  const { language, translations } = useLanguage();
   const mapRef = useRef(null);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const { language, translations } = useLanguage();
 
   return (
     <>
-      <p className="melsztyn-text"> Melsztyn </p>
+      <p className="melsztyn-title2">{translations[language].melsztyn.title}</p>
       <div className="city-center-container">
 
         {/* Full-width image section */}
@@ -61,13 +61,21 @@ const { language, translations } = useLanguage();
           />
         </div>
 
-        <div className='melsztyn-description'>
-          {translations[language].melsztyn.description.split('\n').map((line, i) => (
-            <React.Fragment key={i}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
+        <div className='melsztyn-rect'>
+          <div className='melsztyn-description'>{translations[language].melsztyn.description}</div>
+          <div className='melsztyn-title'>{translations[language].melsztyn.title2}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text2}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text3}</div>
+          <div className='melsztyn-title'>{translations[language].melsztyn.title3}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text4}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text5}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text6}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text7}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text8}</div>
+          <div className='melsztyn-title'>{translations[language].melsztyn.title4}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text9}</div>
+          <div className='melsztyn-description'>{translations[language].melsztyn.text10}</div>
         </div>
       </div>
       <div ref={mapRef} className="map" aria-label="Map showing Melsztyn" />

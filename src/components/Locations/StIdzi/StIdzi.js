@@ -4,7 +4,7 @@ import './StIdzi.css';
 import { useLanguage } from '../../language'; // Adjust import path as needed
 
 const StIdzi = () => {
-const { language, translations } = useLanguage();
+  const { language, translations } = useLanguage();
   const mapRef = useRef(null);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const { language, translations } = useLanguage();
 
   return (
     <>
-      <p className="idzi-text"> St Idzi Zakliczyn </p>
+      <p className="idzi-title2">{translations[language].StIdzi.title}</p>
       <div className="city-center-container">
 
         {/* Full-width image section */}
@@ -60,13 +60,21 @@ const { language, translations } = useLanguage();
           />
         </div>
 
-        <div className='idzi-description'>
-          {translations[language].StIdziZakliczyn.description.split('\n').map((line, i) => (
-            <React.Fragment key={i}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
+        <div className='idzi-rect'>
+          <div className='idzi-description'>{translations[language].StIdzi.description}</div>
+          <div className='idzi-title'>{translations[language].StIdzi.title2}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text2}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text3}</div>
+          <div className='idzi-title'>{translations[language].StIdzi.title3}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text4}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text5}</div>
+          <div className='idzi-title'>{translations[language].StIdzi.title4}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text6}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text7}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text8}</div>
+          <div className='idzi-title'>{translations[language].StIdzi.title5}</div>
+          <div className='idzi-description'>{translations[language].StIdzi.text9}</div>
         </div>
       </div>
       <div ref={mapRef} className="map" aria-label="Map showing St Idzi Zakliczyn" />

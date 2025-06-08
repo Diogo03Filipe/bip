@@ -19,7 +19,7 @@ const FatThursday = () => {
 
   return (
     <>
-      <p className="fat-title1">Fat Thursday</p>
+      <p className="fat-title1">{translations[language].FatThursday.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,21 +30,12 @@ const FatThursday = () => {
         </div>
       </div>
       <div className='fat-rect'>
-        <div className='fat-title'>Polish Folk Costumes</div>
-        <div className='fat-text'>Polish folk costumes are rich and diverse, reflecting the fat of individual regions.
-        Here is some general information:</div>
-        <div className='fat-title'>Diversity:</div>
-        <div className='fat-text'>• Each region of Poland has its own unique costumes, differing in colors, patterns, and elements.</div>
-        <div className='fat-text'>• The most well-known include costumes from: Krákow, Łowicz, and the mountains (Góralski)</div>
-        <div className='fat-title'>Costume Elements:</div>
-        <div className='fat-text'>•<b>Women: </b> skirts, blouses, corsets, shawls, necklaces.</div>
-        <div className='fat-text'>•<b>Man: </b> trousers, shirts, vests, belts, hats.</div>
-        <div className='fat-title'>Ocasions:</div>
-        <div className='fat-text'>• Folk Costumes are worn during holidays, festivals, and regional celebrations.</div>
-        <div className='fat-text'>• They are also used by folk groups.</div>
-        <div className='fat-title'>Symbolism:</div>
-        <div className='fat-text'>• Folk Costumes are an important element of Polish culture and symbolism.</div>
-        <div className='fat-text'>• They reflect local history and customs.</div>
+        <div className='fat-title'>{translations[language].FatThursday.title}</div>
+        <div className='fat-text'>{translations[language].FatThursday.text}</div>
+        <div className='fat-title'>{translations[language].FatThursday.title2}</div>
+        <div className='fat-text'>{translations[language].FatThursday.text2}</div>
+        <div className='fat-title'>{translations[language].FatThursday.title3}</div>
+        <div className='fat-text'>{translations[language].FatThursday.text3}</div>
       </div>
     </>
   );

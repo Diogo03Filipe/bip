@@ -17,7 +17,7 @@ const Footer = () => {
       case '/Locations/EuroveloMotesk':
       case '/Locations/musicCenter':
       case '/Locations/StIdzi':
-        return { backgroundColor: '#91c3f0', borderTop: '4px solid #7bb0dd' };
+        return { backgroundColor: '#7fb6eb', borderTop: '4px solid #6daae6' };
       case '/Gastronomy/CakeWithBeans':
       case '/Gastronomy/BakedBeans':
       case '/Gastronomy/Borscht':

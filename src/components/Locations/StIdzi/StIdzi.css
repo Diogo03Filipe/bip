@@ -3,36 +3,55 @@
     position: relative;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    /* Breaks out of parent container */
     overflow: hidden;
 }
 
-/* Full-width image */
 .full-width-img {
-    width: 600px;
-    /* Set your desired width */
+    width: 100%;
     height: auto;
-    /* Height adjusts proportionally */
-    max-width: 100%;
-    /* Prevents overflow on small screens */
+    display: block;
 }
 
 .map {
     max-width: 800px;
-    /* Adjust as needed */
     margin: 0 auto;
-    /* Centers horizontally */
     width: 100%;
     height: 400px;
+    margin-top: 20px;
 }
 
 .idzi-text {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1rem;
     font-weight: bold;
+    text-align: center;
+}
+
+.idzi-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.idzi-title2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .idzi-description {
-    margin-left: 25px;
-    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.idzi-rect {
+    margin-top: 20px;
+    margin-left: 12.5px;
+    width: calc(100% - 25px);
+    max-width: 385px;
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: #7fb6eb;
+    border: 2px solid #6daae6;
+    opacity: 85%;
 }

@@ -48,7 +48,7 @@ const EuroveloMotesk = () => {
 
   return (
     <>
-      <p className="eurovelo-text">Eurovelo Mostek</p>
+      <p className="eurovelo-title2">{translations[language].EuroveloMotesk.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -57,13 +57,15 @@ const EuroveloMotesk = () => {
             className="full-width-img"
           />
         </div>
-        <div className="eurovelo-description">
-          {translations[language].EuroveloMostek.description.split('\n').map((line, i) => (
-            <React.Fragment key={i}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
+        <div className='eurovelo-rect'>
+          <div className='eurovelo-title'>{translations[language].EuroveloMotesk.title2}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text2}</div>
+          <div className='eurovelo-title'>{translations[language].EuroveloMotesk.title3}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text3}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text4}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text5}</div>
+          <div className='eurovelo-description'>{translations[language].EuroveloMotesk.text6}</div>
         </div>
       </div>
       <div ref={mapRef} className="map" aria-label="Map showing the Eurovelo Mostek" />
