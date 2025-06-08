@@ -35,7 +35,7 @@ const Navbar = () => {
       case '/Locations/musicCenter':
       case '/Locations/StIdzi':
         return '#acd8fc';
-      case '/Gastronomy': 
+      case '/Gastronomy':
       case '/Gastronomy/CakeWithBeans':
       case '/Gastronomy/BakedBeans':
       case '/Gastronomy/Borscht':
@@ -158,6 +158,11 @@ const Navbar = () => {
               </Link>
             </div>
           )}
+        </div>
+        <div className="menu-section">
+          <Link to="AboutUs/AboutUs" className="section-header" onClick={toggleSidebar}>
+            {translations[language].AboutUs}
+          </Link>
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ export const LanguageProvider = ({ children }) => {
       gastronomy: "Gastronomy",
       traditions: "Traditions",
       elderlyHomes: "Retirement Homes",
+      AboutUs: "About Us",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -217,6 +218,22 @@ export const LanguageProvider = ({ children }) => {
         text9: "• Bacon bits.",
         text10: "• Sometimes with sugar or fruit sauces for sweet varieties.",
       },
+      BeanPastries: {
+        title: "Bean Pastries",
+        description: "Bean pastries, or 'pastéis de feijão', are a traditional Portuguese delicacy, known for their sweet flavor and unique texture. Here's a summary of what makes them so special:  ",
+        title2: "Ingredients and Preparation:",
+        text: "• The main ingredients include cooked white beans, sugar, eggs, and ground almonds.",
+        text2: "• Preparation involves creating a creamy filling from the bean puree, which is then placed in a thin, crispy pastry.",
+        text3: "• The result is a pastry with a contrasting texture between the crispy pastry and the smooth filling.",
+        title3: "Characteristics:",
+        text4: "• Bean pastries are distinguished by their sweet, but not overly cloying, flavor and their creamy texture.",
+        text5: "• They are generally small, making them ideal for enjoying as an individual sweet.",
+        text6: "• They are often sprinkled with powdered sugar, which gives them an even more appetizing appearance.",
+        title4: "Popularity and Consumption:",
+        text7: "• Bean pastries are very popular in Portugal, found in pastry shops and cafes throughout the country.",
+        text8: "• They are a popular choice to accompany coffee or as a dessert after a meal.",
+        text9: "• Their popularity also extends to other countries, where Portuguese confectionery is appreciated.",
+      },
       FolkCostumes: {
         title: "Folk Costumes",
         title2: "Polish Folk Costumes",
@@ -263,6 +280,7 @@ export const LanguageProvider = ({ children }) => {
       gastronomy: "Gastronomia",
       traditions: "Tradycje",
       elderlyHomes: "Domy spokojnej starości",
+      AboutUs: "O nas",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -465,6 +483,22 @@ export const LanguageProvider = ({ children }) => {
         text9: "• Skwarkami.",
         text10: "• Czasem z cukrem lub sosami owocowymi w przypadku wersji na słodko."
       },
+      BeanPastries: {
+        title: "Ciastka z Fasoli",
+        description: "Ciastka z fasoli, czyli 'pastéis de feijão', to tradycyjny portugalski przysmak, znany ze swojego słodkiego smaku i unikalnej konsystencji. Oto podsumowanie tego, co czyni je tak wyjątkowymi:",
+        title2: "Składniki i przygotowanie:",
+        text: "• Główne składniki to gotowana biała fasola, cukier, jajka i mielone migdały.",
+        text2: "• Przygotowanie polega na stworzeniu kremowego nadzienia z purée z fasoli, które następnie umieszcza się w cienkim, chrupiącym cieście.",
+        text3: "• Efektem jest ciastko o kontrastującej konsystencji — między chrupiącym ciastem a gładkim nadzieniem.",
+        title3: "Charakterystyka:",
+        text4: "• Ciastka z fasoli wyróżniają się słodkim, ale nie przesadnie mdlącym smakiem oraz kremową konsystencją.",
+        text5: "• Są zazwyczaj niewielkie, co czyni je idealnymi jako pojedynczy deser.",
+        text6: "• Często są posypywane cukrem pudrem, co nadaje im jeszcze bardziej apetyczny wygląd.",
+        title4: "Popularność i spożycie:",
+        text7: "• Ciastka z fasoli cieszą się dużą popularnością w Portugalii i można je znaleźć w cukierniach i kawiarniach w całym kraju.",
+        text8: "• Są popularnym dodatkiem do kawy lub deserem po posiłku.",
+        text9: "• Ich popularność rozciąga się także na inne kraje, gdzie docenia się portugalskie wyroby cukiernicze.",
+      },
       FolkCostumes: {
         title: "Stroje Ludowe",
         title2: "Polskie Stroje Ludowe",
@@ -495,7 +529,9 @@ export const LanguageProvider = ({ children }) => {
         text: "Śmigus-Dyngus? Brzmi osobliwie, więc pozwól, że wyjaśnimy. Śmigus-Dyngus, znany również jako lany poniedziałek, to polska tradycja obchodzona w wielkanocny poniedziałek, która w skrócie polega na oblewaniu się nawzajem dużymi ilościami wody.",
         text2: "Okazuje się, że Śmigus i Dyngus były pierwotnie dwoma odrębnymi zwyczajami. Istnieje wiele różnych teorii na temat tego, jak wyglądały i skąd dokładnie pochodzą. Najczęściej uważa się, że Śmigus polegał na symbolicznym smaganiu nóg gałązkami palmowymi lub wierzbowymi oraz polewaniu zimną wodą. Miało to oczyszczać z brudu i chorób, a później również z grzechu."
       },
-
+      AboutUs: {
+        title: "About Us",
+      },
       discoverTitle: "Odkryj więcej o naszym regionie",
       discoverText: "Poznaj lokalne atrakcje, jedzenie, kulturę i życie społeczności w naszym mieście.",
     }

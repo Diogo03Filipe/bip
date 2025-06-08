@@ -37,24 +37,16 @@ const BeanPastries = () => {
         <div className='ingredients'>{translations[language].BeanPastries.text}</div>
         <div className='ingredients'>{translations[language].BeanPastries.text2}</div>
         <div className='ingredients'>{translations[language].BeanPastries.text3}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text4}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text5}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text6}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text7}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text8}</div>
-        <div className='ingredients'>{translations[language].BeanPastries.text9}</div>
       </div>
       <div className='instructions-rect'>
         <div className='instructions-text'>{translations[language].BeanPastries.title3}</div>
-        <div className='instructions'>{translations[language].BeanPastries.text10}</div>
-        <div className='instructions'>{translations[language].BeanPastries.text11}</div>
-        <div className='instructions'>{translations[language].BeanPastries.text12}</div>
-        
+        <div className='instructions'>{translations[language].BeanPastries.text4}</div>
+        <div className='instructions'>{translations[language].BeanPastries.text5}</div>
+        <div className='instructions'>{translations[language].BeanPastries.text6}</div>
         <div className='tips-text'>{translations[language].BeanPastries.title4}</div>
-        <div className='tips'>{translations[language].BeanPastries.text13}</div>
-        <div className='tips'>{translations[language].BeanPastries.text14}</div>
-        <div className='tips'>{translations[language].BeanPastries.text15}</div>
-        <div className='tips'>{translations[language].BeanPastries.text16}</div>
+        <div className='tips'>{translations[language].BeanPastries.text7}</div>
+        <div className='tips'>{translations[language].BeanPastries.text8}</div>
+        <div className='tips'>{translations[language].BeanPastries.text9}</div>
       </div>
     </>
   );

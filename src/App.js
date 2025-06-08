@@ -21,6 +21,7 @@ import FatThursday from './components/Traditions/FatThursday/FatThursday';
 import WetMonday from './components/Traditions/WetMonday/WetMonday';
 import SecondWedding from './components/Traditions/SecondWedding/SecondWedding';
 import RetirementHomes from './components/Traditions/Retirement Homes/RetirementHomes';
+import AboutUs from './components/AboutUs/AboutUs';
 
 import './App.css'
 import Footer from './components/Footer';
@@ -53,6 +54,7 @@ const App = () => {
         <Route path="Traditions/WetMonday" element={<WetMonday />} />
         <Route path="Traditions/SecondWedding" element={<SecondWedding />} />
         <Route path="ElderlyHomes/RetirementHomes" element={<RetirementHomes />} />
+        <Route path="AboutUs/AboutUs" element={<AboutUs />} />
       </Routes>
     <Footer/>
     </Router>
