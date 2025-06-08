@@ -19,7 +19,7 @@ const BeanPastries = () => {
 
   return (
     <>
-      <p className="bean-text">Bean Pastries</p>
+      <p className="bean-text">{translations[language].BeanPastries.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,33 +30,31 @@ const BeanPastries = () => {
         </div>
       </div>
       <div className='description-rect'>
-        <div className='bean-description'>This recipe is inspired by the Portuguese "pastéis de feijão", 
-        but adapted to be more like a cake. It's moist, delicious and surprisingly made with white beans!</div>
+        <div className='bean-description'>{translations[language].BeanPastries.description}</div>
       </div>
       <div className='ingredients-rect'>
-        <div className='ingredients-text'>Ingredients</div>
-        <div className='ingredients'>• 1 (15 ounces) can cannellini beans, rinsed and drained very well</div>
-        <div className='ingredients'>• 3 large eggs</div>
-        <div className='ingredients'>• 1/2 cup of granulated sugar</div>
-        <div className='ingredients'>• 1/4 cup unsalted butter, melted and cooled</div>
-        <div className='ingredients'>• 1 teaspoon vanilla extract</div>
-        <div className='ingredients'>• 1/4 tea spoon almond extract</div>
-        <div className='ingredients'>• 1/4 ground almonds</div>
-        <div className='ingredients'>• 1/4 teaspoon salt</div>
-        <div className='ingredients'>• Powdered sugar for dustig (Opticional)</div>
+        <div className='ingredients-text'>{translations[language].BeanPastries.title2}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text2}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text3}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text4}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text5}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text6}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text7}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text8}</div>
+        <div className='ingredients'>{translations[language].BeanPastries.text9}</div>
       </div>
       <div className='instructions-rect'>
-        <div className='instructions-text'>Instructions</div>
-        <div className='instructions'>1. Preheat the oven at 175ºC (350ºF). Grease and flour a 9-inch round cake pan.</div>
-        <div className='instructions'>2. In a food processor or blender, combine the beans, eggs, sugar, melted butter,
-        vanilla extract, almond extract, ground almonds, and salt. Process until completly smooth.</div>
-        <div className='instructions'>3. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.</div>
+        <div className='instructions-text'>{translations[language].BeanPastries.title3}</div>
+        <div className='instructions'>{translations[language].BeanPastries.text10}</div>
+        <div className='instructions'>{translations[language].BeanPastries.text11}</div>
+        <div className='instructions'>{translations[language].BeanPastries.text12}</div>
         
-        <div className='tips-text'>Tips</div>
-        <div className='tips'>• Make sure to drain and rinse the beans very well to avoid a beany flavour.</div>
-        <div className='tips'>• You can replace the cannellini beans with another type of white beans, such as navy beans or Great Northern beans.</div>
-        <div className='tips'>• If you don't have ground almonds, you can use almond flour or finely chopped almonds.</div>
-        <div className='tips'>• Serve the cake with a dollop of whipped cream or a scoop of ice cream.</div>
+        <div className='tips-text'>{translations[language].BeanPastries.title4}</div>
+        <div className='tips'>{translations[language].BeanPastries.text13}</div>
+        <div className='tips'>{translations[language].BeanPastries.text14}</div>
+        <div className='tips'>{translations[language].BeanPastries.text15}</div>
+        <div className='tips'>{translations[language].BeanPastries.text16}</div>
       </div>
     </>
   );

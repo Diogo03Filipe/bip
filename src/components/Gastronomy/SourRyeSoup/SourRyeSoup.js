@@ -19,7 +19,7 @@ const SourRyeSoup = () => {
 
   return (
     <>
-      <p className="sour-text">Sour Rye Soup</p>
+      <p className="sour-text">{translations[language].SourRyeSoup.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,28 +30,26 @@ const SourRyeSoup = () => {
         </div>
       </div>
       <div className='sour-description-rect'>
-        <div className='sour-description'>Sour Rye Soup is a traditional Polish sour rye soup. It's hearty and distinctive dish with a unique flavor profile.</div>
+        <div className='sour-description'>{translations[language].SourRyeSoup.description}</div>
       </div>
       <div className='sour-ingredients-rect'>
-        <div className='sour-ingredients-text'>Ingredients</div>
-        <div className='sour-ingredients'>• Polish Sausage</div>
-        <div className='sour-ingredients'>• Smoked Bacon or ham</div>
-        <div className='sour-ingredients'>• Potatoes</div>
-        <div className='sour-ingredients'>• Hard-boiled eggs</div>
-        <div className='sour-ingredients'>• Onions and Garlic</div>
-        <div className='sour-ingredients'>• Marjoram and orther spices</div>
+        <div className='sour-ingredients-text'>{translations[language].SourRyeSoup.title2}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text2}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text3}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text4}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text5}</div>
+        <div className='sour-ingredients'>{translations[language].SourRyeSoup.text6}</div>
       </div>
       <div className='sour-instructions-rect'>
-        <div className='sour-instructions-text'>Characteristics</div>
-        <div className='sour-instructions'>• Sour Base: The defining feature of 'żurek' is its sour, fermented base made from rye flour. 
-        This 'zakwas' (sourdoug starter) gives the soup its characteristic tang.</div>
-        <div className='sour-instructions'>• Variations: There are regional variations of 'żurek'. Some variations may inclue mushrooms, horseradish, or other additions.</div>
-        <div className='sour-instructions'>• Traditional Significance: Żurek is often associated with Easter in Poland, where it's a popular dish served during the holiday.
-         It is also a common comfort food enjoyed throughout the year.</div>
+        <div className='sour-instructions-text'>{translations[language].SourRyeSoup.title3}</div>
+        <div className='sour-instructions'>{translations[language].SourRyeSoup.text7}</div>
+        <div className='sour-instructions'>{translations[language].SourRyeSoup.text8}</div>
+        <div className='sour-instructions'>{translations[language].SourRyeSoup.text9}</div>
         
-        <div className='sour-tips-text'>How it's Served</div>
-        <div className='sour-tips'>• Żurek is often served in a bowl or, for a more traditional presentation, in a hollowed-out loaf of bread.</div>
-        <div className='sour-tips'>• It's typically garnished with hard-boiled egg halves and fresh herbs.</div>
+        <div className='sour-tips-text'>{translations[language].SourRyeSoup.title4}</div>
+        <div className='sour-tips'>{translations[language].SourRyeSoup.text10}</div>
+        <div className='sour-tips'>{translations[language].SourRyeSoup.text11}</div>
       </div>
     </>
   );

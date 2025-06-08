@@ -19,7 +19,7 @@ const Borscht = () => {
 
   return (
     <>
-      <p className="borscht-text">Borscht</p>
+      <p className="borscht-text">{translations[language].Borscht.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,37 +30,36 @@ const Borscht = () => {
         </div>
       </div>
       <div className='borscht-description-rect'>
-        <div className='borscht-description'>Borscht with Beans is an interesting variation of traditional Borscht, 
-        combining sweet and sour taste of beets with the satisfying addition of beans.</div>
+        <div className='borscht-description'>{translations[language].Borscht.description}</div>
       </div>
       <div className='borscht-ingredients-rect'>
-        <div className='borscht-ingredients-text'>Ingredients (Examples):</div>
-        <div className='borscht-ingredients'>• Beets</div>
-        <div className='borscht-ingredients'>• Carrots</div>
-        <div className='borscht-ingredients'>• Parsley Root</div>
-        <div className='borscht-ingredients'>• Celery Root</div>
-        <div className='borscht-ingredients'>• Onion</div>
-        <div className='borscht-ingredients'>• Garlic</div>
-        <div className='borscht-ingredients'>• Beans (white, red, or pinto)</div>
-        <div className='borscht-ingredients'>• Vegetable broth</div>
-        <div className='borscht-ingredients'>• Vinegar or Lemon Juice</div>
-        <div className='borscht-ingredients'>• Sugar (Optional)</div>
-        <div className='borscht-ingredients'>• Spices (Bay Leaf, allspice, pepper, salt)</div>
+        <div className='borscht-ingredients-text'>{translations[language].BeanPastries.title2}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text2}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text3}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text4}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text5}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text6}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text7}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text8}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text9}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text10}</div>
+        <div className='borscht-ingredients'>{translations[language].BeanPastries.text11}</div>
       </div>
       <div className='borscht-instructions-rect'>
-        <div className='borscht-instructions-text'>Instructions</div>
-        <div className='borscht-instructions'>1. Cook the root vegetables and beets in the borth until tender.</div>
-        <div className='borscht-instructions'>2. Cook the beans seperatly or add them to the soup towards the end of cooking.</div>
-        <div className='borscht-instructions'>3. Blend or grate the beets and some of the vegetables.</div>
-        <div className='borscht-instructions'>4. Add the beans, vinegar or lemon juice, sugar (optional), and spices.</div>
-        <div className='borscht-instructions'>5. Cook for a few more minutes to allow the flavors to combine.</div>
-        <div className='borscht-instructions'>6. Serve with bread, potatoes or other accompaniments.</div>
+        <div className='borscht-instructions-text'>{translations[language].BeanPastries.title3}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text12}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text13}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text14}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text15}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text16}</div>
+        <div className='borscht-instructions'>{translations[language].BeanPastries.text17}</div>
         
-        <div className='borscht-tips-text'>Characteristics</div>
-        <div className='borscht-tips'>• Borscht with Beans is a soup that combines the traditional ingredients of borscht (beets, root vegetables) with the adition of beans.</div>
-        <div className='borscht-tips'>• Beans add thickness, satiety, and nutritional value to the soup.</div>
-        <div className='borscht-tips'>• It can be served both hot or cold, depending on preference.</div>
-        <div className='borscht-tips'>• It is a vegetarian or vegan dish depending on the ingredients used (e.g., vegetable broth).</div>
+        <div className='borscht-tips-text'>{translations[language].BeanPastries.title4}</div>
+        <div className='borscht-tips'>{translations[language].BeanPastries.text18}</div>
+        <div className='borscht-tips'>{translations[language].BeanPastries.text19}</div>
+        <div className='borscht-tips'>{translations[language].BeanPastries.text20}</div>
+        <div className='borscht-tips'>{translations[language].BeanPastries.text21}</div>
       </div>
     </>
   );

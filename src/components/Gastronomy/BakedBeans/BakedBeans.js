@@ -19,7 +19,7 @@ const BakedBeans = () => {
 
   return (
     <>
-      <p className="baked-text">Baked Beans</p>
+      <p className="baked-text">{translations[language].BakedBeans.title}</p>
       <div className="city-center-container">
         <div className="image-container">
           <img
@@ -30,32 +30,31 @@ const BakedBeans = () => {
         </div>
       </div>
       <div className='baked-description-rect'>
-        <div className='baked-description'>Baked Beans is a popular and hearty dish from Polish cuisine, known for its rich flavor and simple preparation!</div>
+        <div className='baked-description'>{translations[language].BakedBeans.description}</div>
       </div>
       <div className='baked-ingredients-rect'>
-        <div className='baked-ingredients-text'>Ingredients</div>
-        <div className='baked-ingredients'>• Beans (most often white)</div>
-        <div className='baked-ingredients'>• Sausage (preferably smoked)</div>
-        <div className='baked-ingredients'>• Smoked bacon</div>
-        <div className='baked-ingredients'>• Onion</div>
-        <div className='baked-ingredients'>• Garlic</div>
-        <div className='baked-ingredients'>• Tomato puree or canned tomatoes</div>
-        <div className='baked-ingredients'>• Spices: Marjoram, bay leaf, allspice, pepper, salt</div>
+        <div className='baked-ingredients-text'>{translations[language].BakedBeans.title2}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text2}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text3}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text4}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text5}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text6}</div>
+        <div className='baked-ingredients'>{translations[language].BakedBeans.text7}</div>
       </div>
       <div className='baked-instructions-rect'>
-        <div className='baked-instructions-text'>Instructions</div>
-        <div className='baked-instructions'>1. Soak the beans for several hours, then cook until soft.</div>
-        <div className='baked-instructions'>2. Sauté the chopped onion, bacon and sausage in a pan.</div>
-        <div className='baked-instructions'>3. Add the garlic and spices, then the tomato puree or canned tomatoes.</div>
-        <div className='baked-instructions'>4. Add the coocked beans to the sauce and simmer everything together until the flavors combine.</div>
-        <div className='baked-instructions'>5. Serve the dish hot, ofter with bread.</div>
+        <div className='baked-instructions-text'>{translations[language].BakedBeans.title3}</div>
+        <div className='baked-instructions'>{translations[language].BakedBeans.text8}</div>
+        <div className='baked-instructions'>{translations[language].BakedBeans.text9}</div>
+        <div className='baked-instructions'>{translations[language].BakedBeans.text10}</div>
+        <div className='baked-instructions'>{translations[language].BakedBeans.text11}</div>
+        <div className='baked-instructions'>{translations[language].BakedBeans.text12}</div>
 
         
-        <div className='baked-tips-text'>Characteristics</div>
-        <div className='baked-tips'>• It is a one pot dish whose main ingredients are beans, sausage, bacon and tomato sauce.</div>
-        <div className='baked-tips'>• It's a very nutritious and warming dish, which is why it often appears on Polish tables during colder days.</div>
-        <div className='baked-tips'>• Despite its name, this dish has nothing to do with Brittany in France. 
-        The name probably comes from the term "à la bretonne", which in French cuisine means a dish with beans.</div>
+        <div className='baked-tips-text'>{translations[language].BakedBeans.title4}</div>
+        <div className='baked-tips'>{translations[language].BakedBeans.text13}</div>
+        <div className='baked-tips'>{translations[language].BakedBeans.text14}</div>
+        <div className='baked-tips'>{translations[language].BakedBeans.text15}</div>
       </div>
     </>
   );
