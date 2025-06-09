@@ -1,53 +1,38 @@
-import React, { useEffect } from 'react';
+import ZaklinczynPdf from '../../assets/Zacklynsfinalproject.pdf';
+import GamificationPdf from '../../assets/GamificationProject.pdf';
 import './AboutUs.css';
-import { useLanguage } from '../language';
+import { useLanguage } from '../language.js';
+import React, { useEffect } from 'react';
 
 const AboutUs = () => {
-  const { language, translations } = useLanguage();
-  
 
-  useEffect(() => {
-    // Set background color for THIS PAGE
-    document.body.style.backgroundColor = '#f7ddd0'; // Replace with your desired color
+    const { language } = useLanguage();
 
-    // Cleanup: Reset background when leaving the page
-    return () => {
-      document.body.style.backgroundColor = ''; // Revert to default
-    };
-  }, []);
+    useEffect(() => {
+            // Set background color for THIS PAGE
+            document.body.style.backgroundColor = '#e7fcb8'; // Replace with your desired color
+    
+            // Cleanup: Reset background when leaving the page
+            return () => {
+                document.body.style.backgroundColor = ''; // Revert to default
+            };
+        }, []);
 
-  return (
-    <>
-      <p className="baked-text">{translations[language].BakedBeans.title}</p>
-      <div className='baked-description-rect'>
-        <div className='baked-description'>{translations[language].BakedBeans.description}</div>
-      </div>
-      <div className='baked-ingredients-rect'>
-        <div className='baked-ingredients-text'>{translations[language].BakedBeans.title2}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text2}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text3}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text4}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text5}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text6}</div>
-        <div className='baked-ingredients'>{translations[language].BakedBeans.text7}</div>
-      </div>
-      <div className='baked-instructions-rect'>
-        <div className='baked-instructions-text'>{translations[language].BakedBeans.title3}</div>
-        <div className='baked-instructions'>{translations[language].BakedBeans.text8}</div>
-        <div className='baked-instructions'>{translations[language].BakedBeans.text9}</div>
-        <div className='baked-instructions'>{translations[language].BakedBeans.text10}</div>
-        <div className='baked-instructions'>{translations[language].BakedBeans.text11}</div>
-        <div className='baked-instructions'>{translations[language].BakedBeans.text12}</div>
+    return (
+        <div className='text'>
+            <h1>{language === 'en' ? 'About our Project' : 'O naszym projekcie'}</h1>
+            <p>{language === 'en' ? 'Here you can learn more about our project.' : 'Tutaj możesz dowiedzieć się więcej o naszym projekcie.'}</p>
+            <a href={ZaklinczynPdf} download="AboutUsDocument.pdf">
+                {language === 'en' ? 'Download our Zackliczyn Network Project!' : 'Pobierz nasz projekt sieciowy Zackliczyn!'}
+            </a>
+            <br></br>
+            <br></br>
+            <a href={GamificationPdf} download="GamificationProject.pdf">
+                {language === 'en' ? 'Download our Gamification Project!' : 'Pobierz nasz projekt grywalizacji!'}
+            </a>
 
-        
-        <div className='baked-tips-text'>{translations[language].BakedBeans.title4}</div>
-        <div className='baked-tips'>{translations[language].BakedBeans.text13}</div>
-        <div className='baked-tips'>{translations[language].BakedBeans.text14}</div>
-        <div className='baked-tips'>{translations[language].BakedBeans.text15}</div>
-      </div>
-    </>
-  );
+        </div>
+    );
 };
 
 export default AboutUs;

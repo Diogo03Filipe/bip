@@ -161,7 +161,7 @@ const Navbar = () => {
         </div>
         <div className="menu-section">
           <Link to="AboutUs/AboutUs" className="section-header" onClick={toggleSidebar}>
-            {translations[language].AboutUs}
+            {language === 'en' ? 'About our Project' : 'O naszym projekcie'}
           </Link>
         </div>
       </div>

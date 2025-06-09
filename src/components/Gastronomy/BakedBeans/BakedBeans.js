@@ -49,7 +49,6 @@ const BakedBeans = () => {
         <div className='baked-instructions'>{translations[language].BakedBeans.text10}</div>
         <div className='baked-instructions'>{translations[language].BakedBeans.text11}</div>
         <div className='baked-instructions'>{translations[language].BakedBeans.text12}</div>
-
         
         <div className='baked-tips-text'>{translations[language].BakedBeans.title4}</div>
         <div className='baked-tips'>{translations[language].BakedBeans.text13}</div>

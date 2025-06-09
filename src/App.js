@@ -31,35 +31,37 @@ const App = () => {
   return (
     <Router basename="/bip">
       <ScrollToTop />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Locations" element={<Locations />} />
-        <Route path="/Gastronomy" element={<Gastronomy />} />
-        <Route path="/Traditions" element={<Traditions />} />
-        <Route path="/RetirementHomes" element={<RetirementHomes />} />
-        <Route path="Locations/cityCenter" element={<CityCenter />} />
-        <Route path="Locations/melsztyn" element={<Melsztyn />} />
-        <Route path="Locations/MusicCenter" element={<MusicCenter />} />
-        <Route path="Locations/EuroveloMotesk" element={<EuroveloMotesk />} />
-        <Route path="Locations/StIdzi" element={<StIdzi />} />
-        <Route path="Gastronomy/CakeWithBeans" element={<CakeWithBeans />} />
-        <Route path="Gastronomy/BeanPastries" element={<BeanPastries />} />
-        <Route path="Gastronomy/Borscht" element={<Borscht />} />
-        <Route path="Gastronomy/BakedBeans" element={<BakedBeans />} />
-        <Route path="Gastronomy/SourRyeSoup" element={<SourRyeSoup />} />
-        <Route path="Gastronomy/Pierogi" element={<Pierogi />} />
-        <Route path="Traditions/FolkCostumes" element={<FolkCostumes />} />
-        <Route path="Traditions/FatThursday" element={<FatThursday />} />
-        <Route path="Traditions/WetMonday" element={<WetMonday />} />
-        <Route path="Traditions/SecondWedding" element={<SecondWedding />} />
-        <Route path="ElderlyHomes/RetirementHomes" element={<RetirementHomes />} />
-        <Route path="AboutUs/AboutUs" element={<AboutUs />} />
-      </Routes>
-    <Footer/>
+      <div className="app-container">
+        <Navbar />
+        <div className="content-wrap">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Locations" element={<Locations />} />
+            <Route path="/Gastronomy" element={<Gastronomy />} />
+            <Route path="/Traditions" element={<Traditions />} />
+            <Route path="/RetirementHomes" element={<RetirementHomes />} />
+            <Route path="Locations/cityCenter" element={<CityCenter />} />
+            <Route path="Locations/melsztyn" element={<Melsztyn />} />
+            <Route path="Locations/MusicCenter" element={<MusicCenter />} />
+            <Route path="Locations/EuroveloMotesk" element={<EuroveloMotesk />} />
+            <Route path="Locations/StIdzi" element={<StIdzi />} />
+            <Route path="Gastronomy/CakeWithBeans" element={<CakeWithBeans />} />
+            <Route path="Gastronomy/BeanPastries" element={<BeanPastries />} />
+            <Route path="Gastronomy/Borscht" element={<Borscht />} />
+            <Route path="Gastronomy/BakedBeans" element={<BakedBeans />} />
+            <Route path="Gastronomy/SourRyeSoup" element={<SourRyeSoup />} />
+            <Route path="Gastronomy/Pierogi" element={<Pierogi />} />
+            <Route path="Traditions/FolkCostumes" element={<FolkCostumes />} />
+            <Route path="Traditions/FatThursday" element={<FatThursday />} />
+            <Route path="Traditions/WetMonday" element={<WetMonday />} />
+            <Route path="Traditions/SecondWedding" element={<SecondWedding />} />
+            <Route path="ElderlyHomes/RetirementHomes" element={<RetirementHomes />} />
+            <Route path="AboutUs/AboutUs" element={<AboutUs />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </Router>
-
   );
 };
-
 export default App;

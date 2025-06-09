@@ -34,6 +34,7 @@ const Footer = () => {
         return { backgroundColor: '#eacfe9', borderTop: '4px solid #d2b3cf' };
       case '/ElderlyHomes/RetirementHomes':
       case '/RetirementHomes':
+      case '/AboutUs/AboutUs':
         return { backgroundColor: '#d8eca4', borderTop: '4px solid #bed78a' };
       default:
         return { backgroundColor: '#cccccc', borderTop: '4px solid #b0b0b0' };

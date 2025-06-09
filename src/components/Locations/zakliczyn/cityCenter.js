@@ -26,7 +26,7 @@ const CityCenter = () => {
       defaultLayers.vector.normal.map,
       {
         zoom: 10,
-        center: { lat: 49.849997, lng: 20.816663 },
+        center: { lat: 49.856252, lng: 20.808794 },
       }
     );
 

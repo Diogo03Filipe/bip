@@ -34,7 +34,7 @@ const StIdzi = () => {
     ui.getControl('mapsettings').setVisibility(false);
 
     new window.H.mapevents.Behavior(new window.H.mapevents.MapEvents(map));
-    const marker = new window.H.map.Marker({ lat: 49.872923, lng: 20.766766 });
+    const marker = new window.H.map.Marker({ lat: 49.856252, lng: 20.808794 });
     map.addObject(marker);
 
     // Set background color for THIS PAGE

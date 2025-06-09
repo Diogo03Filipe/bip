@@ -14,7 +14,7 @@ export const LanguageProvider = ({ children }) => {
       gastronomy: "Gastronomy",
       traditions: "Traditions",
       elderlyHomes: "Retirement Homes",
-      AboutUs: "About Us",
+      aboutUs: "About Us",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
@@ -280,7 +280,7 @@ export const LanguageProvider = ({ children }) => {
       gastronomy: "Gastronomia",
       traditions: "Tradycje",
       elderlyHomes: "Domy spokojnej starości",
-      AboutUs: "O nas",
+      aboutUs: "O nas",
       menuItems: {
         zakliczyn: "Zakliczyn",
         melsztyn: "Melsztyn",
