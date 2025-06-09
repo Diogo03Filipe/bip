@@ -51,6 +51,7 @@ const Navbar = () => {
         return '#fcedfc';
       case '/ElderlyHomes/RetirementHomes':
       case '/RetirementHomes':
+      case '/AboutUs/AboutUs':
         return '#efffcc';
       default:
         return '#e8e8e8';
