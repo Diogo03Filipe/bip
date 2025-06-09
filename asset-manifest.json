@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/bip/static/css/main.6eddfe2a.css",
-    "main.js": "/bip/static/js/main.6692b36c.js",
+    "main.css": "/bip/static/css/main.7a1755a3.css",
+    "main.js": "/bip/static/js/main.291b4327.js",
     "static/js/453.4fdc8726.chunk.js": "/bip/static/js/453.4fdc8726.chunk.js",
     "static/media/zakliczyn.png": "/bip/static/media/zakliczyn.97c0638240e0aeec0c68.png",
     "static/media/FolkCostumes.png": "/bip/static/media/FolkCostumes.5adccde5ffa0fec7161f.png",
     "static/media/FatThursday.png": "/bip/static/media/FatThursday.b52abba72e5a362a8552.png",
+    "static/media/GamificationProject.pdf": "/bip/static/media/GamificationProject.c0189cd991aa66a86b78.pdf",
     "static/media/WetMonday.png": "/bip/static/media/WetMonday.a58623d0fe4a8cabf8a3.png",
     "static/media/musicCenter.png": "/bip/static/media/musicCenter.bd884b1c5ce77f2b4ee9.png",
+    "static/media/Zacklynsfinalproject.pdf": "/bip/static/media/Zacklynsfinalproject.9b4ee2149780e939bc72.pdf",
     "static/media/EuroveloMostek.png": "/bip/static/media/EuroveloMostek.6071925c3d58121b59b6.png",
     "static/media/Borscht.png": "/bip/static/media/Borscht.e7198a28f86e42e2668d.png",
     "static/media/melsztyn.png": "/bip/static/media/melsztyn.a41ac1947fb84a9458b8.png",
@@ -21,12 +23,12 @@
     "static/media/BakedBeans.png": "/bip/static/media/BakedBeans.1c8c09ceeb3fba8f0ffb.png",
     "static/media/uk_banner.png": "/bip/static/media/uk_banner.c3b69178098f3b01ec99.png",
     "index.html": "/bip/index.html",
-    "main.6eddfe2a.css.map": "/bip/static/css/main.6eddfe2a.css.map",
-    "main.6692b36c.js.map": "/bip/static/js/main.6692b36c.js.map",
+    "main.7a1755a3.css.map": "/bip/static/css/main.7a1755a3.css.map",
+    "main.291b4327.js.map": "/bip/static/js/main.291b4327.js.map",
     "453.4fdc8726.chunk.js.map": "/bip/static/js/453.4fdc8726.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eddfe2a.css",
-    "static/js/main.6692b36c.js"
+    "static/css/main.7a1755a3.css",
+    "static/js/main.291b4327.js"
   ]
 }
